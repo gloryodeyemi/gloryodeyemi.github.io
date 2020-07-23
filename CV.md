@@ -4,7 +4,7 @@
 * **Email:** gloryodeyemi.nike@gmail.com 
 * **Phone:** +2349021003355
 * **Location:** Lagos, Nigeria.  
-* **Links:** [LinkedIn](linkedin.com/in/glory-odeyemi-a3a680169) | [GitHub](https://github.com/gloryodeyemi) | [GitHub Page](https://gloryodeyemi.github.io/)
+* **Links:** [LinkedIn](linkedin.com/in/glory-odeyemi-a3a680169)  [GitHub](https://github.com/gloryodeyemi)  [GitHub Page](https://gloryodeyemi.github.io/)
 
 ### SUMMARY  
 An adaptable, motivated, strongly focused, and hardworking graduate, with the ability to complete tasks accurately in a fast-paced environment with conflicting deadlines.
@@ -27,12 +27,12 @@ _NAV Department_
 * Posted as a consultant in a client company, LADOL, for four months and worked tirelessly in migrating previous manual transactions to the Microsoft Dynamics NAV software.
 
 ### EDUCATION
-### Formal Education
+#### Formal Education
 
 * **BSc. Computer Science (09/2015 – 07/2019)**  
 [Bowen University](https://www.bowenuniversity.edu.ng) - _Iwo, Osun State_
 
-### Training
+#### Training
 
 * **Job Ready Data Scientists (07/2020 – Present)**  
 [_10 Academy_](https://www.10academy.org/)
@@ -52,8 +52,8 @@ _International Strategic Management Institute (ISMI)_
 
 ### OTHER EXPERIENCE
 
-* **ICT Community Development Service Group (09/2019 – 07/2020)**
-_Financial Secretary_
+* **ICT Community Development Service Group (09/2019 – 07/2020)**  
+_Financial Secretary_  
   * Actively participated in sensitization by visiting different schools and enlightening the students on the basics of ICT and its advantages.
   * Provided free Jamb Computer-based test (CBT) training for students.
   * Duly represented the CDS group as the Financial Secretary from 12th January, 2020 till date.
@@ -68,7 +68,7 @@ _Financial Secretary_
   * Deployment of developed applications.
   
 * **Electoral Committee (NACOSS) (09/2018 – 07/2019)**  
-_Welfare coordinator_
+_Welfare coordinator_  
   * Provided adequate care to lecturers and students during the 2018/2019 NACOSS executives’ campaigns, manifesto, and election as the welfare coordinator.
   * Ensured the 2018/2019 NACOSS executives’ election conducted was free and fair.
 
