@@ -19,9 +19,9 @@ Like I told you earlier, I am a Data Science and Project Management Enthusiast. 
 
 As a recent graduate, I do have a little bit of experience, be sure to check my resume out by clicking **[here](CV.md)** and hit me up with job opportunities. I'll be waiting...
 
-### Let's Talk
+### Let's Talk Business
 
-If you like what you see and you want to communicate with me, feel free to reach me on any of these, I'll be sure to reply.  
+I'm open to job opportunities, projects, or collaborations. Feel free to reach me on any of these, I'll be sure to reply.  
 [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/) | [Twitter](https://twitter.com/gloryodeyemi) | [Facebook](https://web.facebook.com/Gloowwwry) | gloryodeyemi.nike@gmail.com
 
 
