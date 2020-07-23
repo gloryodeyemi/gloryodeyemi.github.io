@@ -1,5 +1,5 @@
 # Projects  
-This contains information about all the projects I've worked on personally, with a team, or as a collaboration. Please feel free to contact me on: [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/), [Twitter](https://), or [Send me an Email](gloryodeyemi.nike@gmail.com) about the projects, job opportunities, or collaborations.
+This contains information about all the projects I've worked on personally, with a team, or as a collaboration. Please feel free to contact me on: [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/), [Twitter](https://twitter.com/gloryodeyemi), or Email me at: gloryodeyemi.nike@gmail.com about the projects, job opportunities, or collaborations.
 
 ## Data Science
 
