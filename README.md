@@ -21,7 +21,7 @@ As a recent graduate, I do have a little bit of experience, be sure to check my 
 
 ### Let's Talk Business
 
-I'm open to job opportunities, projects, or collaborations. Feel free to reach me on any of these, I'll be sure to reply.  
+I'm open to job opportunities, projects, or collaborations. Feel free to contact me on any of these, I'll be sure to reply.  
 [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/) | [Twitter](https://twitter.com/gloryodeyemi) | [Facebook](https://web.facebook.com/Gloowwwry) | gloryodeyemi.nike@gmail.com
 
 
