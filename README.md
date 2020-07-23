@@ -1,14 +1,27 @@
-# My Portfolio
+#### [Home](README.md) | [About me](About.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
 
-**Author:** Odeyemi Glory Adenike
+## WELCOME! WELCOME!! WELCOME!!!
 
-**Interest/Hobbies:** ```Data Science```  ```Project Management``` ```Poetry``` ```Games``` ```Music```
+### Odeyemi Glory at a glance
+* Christian
+* Computer Science Graduate
+* Data Science and Project Management Enthusiast
+* Foodie, who is also a big lover of games, music and dogs.
+* I write poems too (whenever there's a vibe)
 
-**Contact Me:** [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/), [Twitter](https://twitter.com/gloryodeyemi), [Github](https://github.com/gloryodeyemi), [Email](gloryodeyemi.nike@gmail.com), [Facebook](https://web.facebook.com/Gloowwwry)
+Come on now, where's the fun if I let you know all about me at a glance?, lol. Get to know me more by clicking [here](About.md)
 
-**About me:** [About me](About.md), [Projects](Projects.md), [Resume/CV](CV.md)
+### Projects
 
-## Projects
+Like I told you earlier, I am a Data Science and Project Management Enthusiast. I know some of you are wondering what exactly can this little girl do? why don't you click [here](Projects.md) to find out, it might not be much but I'm kinda smart too.
 
-### 10 Academy
-- Week 1 - [Twitter User Segmentation](https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1)
+### Resume/CV
+
+As a recent graduate, I do have a little bit of experience, be sure to check me resume out by clicking [here](CV.md) and hit me up with up with job opportunities. I'll be waiting...
+
+### Let's Talk
+
+If you like what you see and you want to communicate with me, feel free to reach me on any of these, I'll be sure to reply.  
+[LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/) | [Twitter](https://twitter.com/gloryodeyemi) | [Facebook](https://web.facebook.com/Gloowwwry) | gloryodeyemi.nike@gmail.com
+
+#### [Home](README.md) | [About me](About.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
