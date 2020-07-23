@@ -2,7 +2,6 @@
 
 ## GLORY ODEYEMI
 * **Email:** gloryodeyemi.nike@gmail.com 
-* **Phone:** +2349021003355
 * **Location:** Lagos, Nigeria.  
 * **Links:** [LinkedIn](linkedin.com/in/glory-odeyemi-a3a680169)  [GitHub](https://github.com/gloryodeyemi)  [GitHub Page](https://gloryodeyemi.github.io/)
 
