@@ -44,7 +44,7 @@ I see you are interested in getting to know me more, well, I have been expecting
   >
   > "Always see the bigger picture in everything." - _Anonymous_
   
-Okay, I think that's just about it, there's nothing much to know about me or maybe there is...well, this is all you get for now.
+Okay, I think that's just about it, there's nothing much to know about me or maybe there is...well, that's it for now.
 
 ### Let's Talk Business
 I'm open to job opportunities, projects, or collaborations. Feel free to contact me on any of these, I'll be sure to reply.  
