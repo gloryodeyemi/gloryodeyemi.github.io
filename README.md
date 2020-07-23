@@ -17,11 +17,12 @@ Like I told you earlier, I am a Data Science and Project Management Enthusiast. 
 
 ### Resume/CV
 
-As a recent graduate, I do have a little bit of experience, be sure to check me resume out by clicking [here](CV.md) and hit me up with up with job opportunities. I'll be waiting...
+As a recent graduate, I do have a little bit of experience, be sure to check my resume out by clicking [here](CV.md) and hit me up with job opportunities. I'll be waiting...
 
 ### Let's Talk
 
 If you like what you see and you want to communicate with me, feel free to reach me on any of these, I'll be sure to reply.  
 [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/) | [Twitter](https://twitter.com/gloryodeyemi) | [Facebook](https://web.facebook.com/Gloowwwry) | gloryodeyemi.nike@gmail.com
 
-#### [Home](README.md) | [About me](About.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
+
+##### [Home](README.md) | [About me](About.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
