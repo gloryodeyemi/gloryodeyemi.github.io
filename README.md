@@ -6,6 +6,8 @@
 
 **Contact Me:** [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/), [Twitter](https://twitter.com/gloryodeyemi), [Github](https://github.com/gloryodeyemi), [Email](gloryodeyemi.nike@gmail.com), [Facebook](https://web.facebook.com/Gloowwwry)
 
+**About me:** [About me](About.md)
+
 ## Projects
 
 ### 10 Academy
