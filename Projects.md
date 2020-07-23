@@ -9,4 +9,4 @@ This contains information about all the projects I've worked on personally, with
 I am currently undergoing a Data Science Training at [10 Academy](https://www.10academy.org/) and this contains my solution to all the weekly challenges given.
 * Week 1 - [Twitter User Segmentation](https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1)
 
-#### [Home](README.md) | [About me](About.md) | [Resume/CV](CV.md)
+##### [Home](README.md) | [About me](About.md) | [Resume/CV](CV.md)
