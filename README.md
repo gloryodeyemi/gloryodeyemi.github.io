@@ -1,12 +1,23 @@
-## Welcome to GitHub Pages
+# My Portfolio
 
-You can use the [editor on GitHub](https://github.com/gloryodeyemi/gloryodeyemi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### About Me
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Education
+##### Formal Education
+- BSc. Computer Science - [Bowen University](https://www.bowenuniversity.edu.ng)
 
-### Markdown
+##### Training
+- Job Ready Data Scientists (07/2020 - Present) - [10 Academy](https://www.10academy.org/)
+- Data Analysis with Python (01/2020 - 03/2020) - [Zacrac Integrated Limited](https://www.zacrac.com/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Certifications
+- [The Fundamentals of Digital Marketing](https://drive.google.com/file/d/1hJHCdoZUOizyQqw13gON_ovKPVhfZDb-/view?usp=sharing) (06/2020) - Google Digital Skills for Africa
+
+#### Interest/Hobbies
+```Data Science```  ```Project Management``` ```Poetry``` ```Games``` ```Music```
+
+#### Contact Me
+[LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/), [Twitter](https://twitter.com/gloryodeyemi), [Github](https://github.com/gloryodeyemi), [Email](gloryodeyemi.nike@gmail.com), [Facebook](https://web.facebook.com/Gloowwwry)
 
 ```markdown
 Syntax highlighted code block
@@ -32,6 +43,8 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gloryodeyemi/gloryodeyemi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I'm open to new connections, job opportunities, or collaborations, feel free to contact me on the following: 
+- [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/)
+- [Twitter](https://twitter.com/gloryodeyemi)
