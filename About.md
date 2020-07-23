@@ -46,4 +46,7 @@ I see you are interested in getting to know me more, well, I have been expecting
   
 Okay, I think that's just about it, there's nothing much to know about me or maybe there is...well, this is all you get for now.
 
-### Let's Talk
+### Let's Talk Business
+I'm open to job opportunities, projects, or collaborations. Feel free to contact me on any of these, I'll be sure to reply.  
+[LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/) | [Twitter](https://twitter.com/gloryodeyemi) | [Facebook](https://web.facebook.com/Gloowwwry) | gloryodeyemi.nike@gmail.com
+
