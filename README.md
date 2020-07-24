@@ -1,23 +1,29 @@
-#### [Home](README.md) | [About me](About.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
+#### [Home](README.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
 
-## WELCOME! WELCOME!! WELCOME!!!
-
-### Odeyemi Glory at a glance
-* Christian
-* Computer Science Graduate
-* Data Science and Project Management Enthusiast
-* Foodie, who is also a big lover of games, music and dogs.
-* I write poems too (whenever there's a vibe)
-
-Come on now, where's the fun if I let you know all about me at a glance?, lol. Get to know me more by clicking **[here](About.md)**
+**Author:** Odeyemi Glory Adenike  
+**Career Path:**  
+* Data Science Enthusiast
+* Project Management Enthusiast
 
 ### Projects
 
-Like I told you earlier, I am a Data Science and Project Management Enthusiast. I know some of you are wondering what exactly can this little girl do? why don't you click **[here](Projects.md)** to find out, it might not be much but I'm kinda smart too.
+**[Here](Projects.md)** is a list of projects I've worked on, it might not be much but I'm kinda smart too.
 
 ### Resume/CV
 
 As a recent graduate, I do have a little bit of experience, be sure to check my resume out by clicking **[here](CV.md)** and hit me up with job opportunities. I'll be waiting...
+
+Here's a list of some of my **favourite quotes**, just thought I should share the with you, you could find them useful.
+
+  > "When the purpose of a thing is not known, the abuse of it is inevitable." - _Myles Munroe_
+  >
+  > "Tell me and I forget, Teach me and I remember, Involve me and I learn." - _Anonymous_
+  >
+  > "Choose a path, and make your mark!" - _Microsoft Technology_
+  >
+  > "Never let your curiousity wane." - _Anonymous_
+  >
+  > "Always see the bigger picture in everything." - _Anonymous_
 
 ### Let's Talk Business
 
@@ -25,4 +31,4 @@ I'm open to job opportunities, projects, or collaborations. Feel free to contact
 [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/) | [Twitter](https://twitter.com/gloryodeyemi) | [Facebook](https://web.facebook.com/Gloowwwry) | gloryodeyemi.nike@gmail.com
 
 
-##### [Home](README.md) | [About me](About.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
+##### [Home](README.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
