@@ -1,4 +1,4 @@
-#### [Home](README.md) | [About me](About.md) | [Projects](Projects.md)
+#### [Home](README.md) | [Projects](Projects.md)
 
 ## GLORY ODEYEMI
 * **Email:** gloryodeyemi.nike@gmail.com 
