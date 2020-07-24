@@ -7,11 +7,19 @@
 
 ### Projects
 
-**[Here](Projects.md)** is a list of projects I've worked on, it might not be much but I'm kinda smart too.
+This is a list of projects I have worked on personally, or with a team, it's not much but I'm kinda smart too.
+
+#### Data Science
+
+* [Twitter User Segmentation](https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1) - Identifying Top African Twitter Influencers and Government Officials.
+
+Click **[here](Projects.md)** for more details about the projects.
 
 ### Resume/CV
 
 As a recent graduate, I do have a little bit of experience, be sure to check my resume out by clicking **[here](CV.md)** and hit me up with job opportunities. I'll be waiting...
+
+#### Bonus Offers
 
 Here's a list of some of my **favourite quotes**, just thought I should share the with you, you could find them useful.
 
