@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+.page-content {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  float: left;
+}
+
 .copy {
   text-align: center;
 }
