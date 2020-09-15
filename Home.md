@@ -1,8 +1,7 @@
 <html>
   
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=2">
-  <link rel="stylesheet" href="/assets/css/style.css">
+
 </head>
 
 <body>
