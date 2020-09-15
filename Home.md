@@ -26,7 +26,7 @@
   <div class="clearfix">
       <img src="/assets/images/unnamed.jpg" alt="Projects" class="cont">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac tempus purus, mollis posuere mi. Nullam viverra porttitor neque sit amet porttitor. Praesent sollicitudin ex odio, sit amet sodales libero dapibus vel. Maecenas sit amet augue sagittis, tristique ligula et, faucibus nunc.
-      <p><a href="Home.md"><button id="myBtn">Home</button></a></p>
+      <p><a href="Home.html"><button id="myBtn">Home</button></a></p>
   </div>
 
 </body>
