@@ -14,10 +14,15 @@
 }
 
 #myBtn {
-  background-color: #00aff0;
+  background-color: #007bb5;
   padding: 10px;
   color: white;
   border-radius: 10%;
+}
+
+#myBtn:hover {
+  background-color: #55ACEE;
+  cursor: pointer;
 }
 
 .copy {
