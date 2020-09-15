@@ -1,4 +1,4 @@
-#### [Home](README.md) | [Resume/CV](CV.md)
+#### [Home](README.md) | [Resume/CV](CV.md) | [Home](Home.md)
 
 # Projects  
 This contains information about all the projects I've worked on personally or with a team. Please feel free to contact me on: [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/), [Twitter](https://twitter.com/gloryodeyemi), or send me an email: gloryodeyemi.nike@gmail.com about the projects, job opportunities, or collaborations.
