@@ -9,6 +9,14 @@
   float: left;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
+.page-content {
+  clear: left;
+}
+
 .copy {
   text-align: center;
 }
