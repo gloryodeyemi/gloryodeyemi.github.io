@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.copyright {
+  text-align: center;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
