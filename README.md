@@ -1,4 +1,4 @@
-#### [Home](README.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
+#### [Home](README.md) | [Projects](Projects.md) | [Resume/CV](CV.md) | [Home](Home.md)
 
 **Author:** Odeyemi Glory Adenike  
 **Career Path:**  
