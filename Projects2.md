@@ -26,7 +26,7 @@
 geographical area. The investor is interested in purchasing TellCo, an existing mobile service provider in the Republic of Pefkakia. TellCo’s current owners have been willing to share their financial information but have never employed anyone to look at their data that is generated automatically by their systems. Your employer wants you to provide a report to analyze opportunities for growth and make a recommendation on whether TellCo is worth buying or selling. You will do this by analyzing a telecommunication dataset that contains useful information about the customers & their activities on the network. </span></p>
         <p>
           <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week2"><button>View Code</button></a>
-          <button onclick="myFunction()" id="myBtn3">Read more</button>
+          <button onclick="myFunction2()" id="myBtn3">Read more</button>
         </p>
       </ul>
     </div>
@@ -49,17 +49,17 @@ geographical area. The investor is interested in purchasing TellCo, an existing 
     }
   
   function myFunction2() {
-      var dots = document.getElementById("dots2");
-      var moreText = document.getElementById("more2");
-      var btnText = document.getElementById("myBtn3");
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
+      var dots2 = document.getElementById("dots2");
+      var moreText2 = document.getElementById("more2");
+      var btnText2 = document.getElementById("myBtn3");
+      if (dots2.style.display === "none") {
+        dots2.style.display = "inline";
+        btnText2.innerHTML = "Read more"; 
+        moreText2.style.display = "none";
       } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
+        dots2.style.display = "none";
+        btnText2.innerHTML = "Read less"; 
+        moreText2.style.display = "inline";
       }
     }
 </script>
