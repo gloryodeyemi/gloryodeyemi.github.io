@@ -5,16 +5,11 @@
 </head>
 
 <body>
-  <ul>
-    <li><a class="nav" href="Home.html">Home</a></li>
-    <li><a class="nav" href="CV2.html">Resume/CV</a></li>
-  </ul>
-
   <!-- DATA SCIENCE -->
   <section>
     <h1>Projects - Data Science</h1>
     <div>
-      <h3>10 Academy</h3>
+      <h3>10 Academy Projects</h3>
       <p><a href="https://www.10academy.org/">10 Academy</a> identifies, trains and enables exceptionally talented young Africans to have an outsized impact on the world.</p>
       <p>I am currently undergoing a Data Science Training at 10 Academy and this contains my solution to all the weekly challenges given.</p>
       <ul>
@@ -28,11 +23,6 @@
       </ul>
     </div>
   </section>
-  
-  <ul>
-    <li><a class="nav" href="Home.html">Home</a></li>
-    <li><a class="nav" href="CV2.html">Resume/CV</a></li>
-  </ul>
   
   <script>
     function myFunction() {
