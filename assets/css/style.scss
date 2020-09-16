@@ -9,8 +9,13 @@
 }
 
 .clearfix {
+  width: 40%;
   float: left;
   overflow: auto;
+}
+
+.clearbutton {
+  text-align: center;
 }
 
 #myBtn {
