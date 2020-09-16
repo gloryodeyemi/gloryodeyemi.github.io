@@ -6,8 +6,8 @@
 
 <body>
   <ul>
-    <a href="Home.html">Home</a>
-    <a href="CV2.html">Resume/CV</a>
+    <li><a class="nav" href="Home.html">Home</a></li>
+    <li><a class="nav" href="CV2.html">Resume/CV</a></li>
   </ul>
 
   <!-- DATA SCIENCE -->
@@ -19,9 +19,19 @@
       <p>I am currently undergoing a Data Science Training at 10 Academy and this contains my solution to all the weekly challenges given.</p>
       <ul>
         <li><strong>Week 1 - Twitter User Segmentation</strong></li>
-          <p><a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1"><button>View Code</button></a></p>
+        <img src="/assets/images/week1.png" alt="Week 1">
+        <p>
+          <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1"><button>View Code</button></a>
+          <button>Read more</button>
+        </p>
       </ul>
     </div>
   </section>
+  
+  <ul>
+    <li><a class="nav" href="Home.html">Home</a></li>
+    <li><a class="nav" href="CV2.html">Resume/CV</a></li>
+  </ul>
+  
 </body>
 </html>
