@@ -19,6 +19,7 @@
         <p>
           <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1"><button>View Code</button></a>
           <button onclick="myFunction()" id="myBtn2">Read more</button>
+          <a href="https://towardsdatascience.com/twitter-data-mining-measuring-users-influence-ef76c9badfc0"><button>Medium Article</button></a>
         </p>
         <li><strong>Week 2 - User Analytics in the Telecommunication Industry - Overview</strong></li>
         <img class="project" src="/assets/images/week2.jpg" alt="Week 2">
@@ -56,6 +57,7 @@ than static alternatives. <span id="dots4">...</span><span id="more4">SmartAd pr
         <p>
           <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week6"><button>View Code</button></a>
           <button onclick="myFunction6()" id="myBtn7">Read more</button>
+          <a href="https://towardsdatascience.com/bank-institution-term-deposit-predictive-model-83afe1d2b08c"><button>Medium Article</button></a>
         </p>
       </ul>
     </div>
