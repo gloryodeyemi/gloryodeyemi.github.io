@@ -18,7 +18,7 @@
   </div>
   
   <div class="clearfix">
-      <img src="/assets/images/resume-icon-16.jpg" alt="Resume" class="cont">
+      <img src="/assets/images/resume.jpg" alt="Resume" class="cont">
       <p class="clearp">Contact me for job opportunities.</p>
       <p class="clearbutton"><a href="CV.md"><button id="myBtn">Resume/CV</button></a></p>
   </div>
