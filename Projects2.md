@@ -43,6 +43,20 @@ than static alternatives. <span id="dots4">...</span><span id="more4">SmartAd pr
           <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week4"><button>View Code</button></a>
           <button onclick="myFunction4()" id="myBtn5">Read more</button>
         </p>
+        <li><strong>Week 5 - Pharmaceutical Sales prediction across multiple stores</strong></li>
+        <img class="project" src="/assets/images/week5.jpg" alt="Week 5">
+        <p>You work at Rossmann Pharmaceuticals as a data scientist. The finance team wants to forecast sales in all their stores across several cities six weeks ahead of time. Managers in individual stores rely on their years of experience as well as their personal judgement toforecast sales. The data<span id="dots5">...</span><span id="more5"> team identified factors such as promotions, competition, school and state holidays, seasonality, and locality as necessary for predicting the sales across the various stores. The main aim of this project is to build and serve an end-to-end product that delivers this prediction to Analysts in the finance team.</span></p>
+        <p>
+          <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week5"><button>View Code</button></a>
+          <button onclick="myFunction5()" id="myBtn6">Read more</button>
+        </p>
+        <li><strong>Week 6 - Bank Institution Term Deposit Predictive Model</strong></li>
+        <img class="project" src="/assets/images/week6.jpg" alt="Week 6">
+        <p>You successfully finished up to your rigorous job interview process with Bank of Portugal as a machine learning researcher. The investment and portfolio department would want to be able to identify their customers who potentially would subscribe to their term deposits. As there has been heightened interest of marketing managers to carefully tune their directed campaigns to the rigorous selection of contacts, the goal of<span id="dots6">...</span><span id="more6"> your employer is to find a model that can predict which future clients who would subscribe to their term deposit. Having such an effective predictive model can help increase their campaign efficiency as they would be able to identify customers who would subscribe to their term deposit and thereby direct their marketing efforts to them. This would help them better manage their resources (e.g human effort, phone calls, time). The Bank of Portugal, therefore, collected a huge amount of data that includes customers profiles of those who have to subscribe to term deposits and the ones who did not subscribe to a term deposit. As their newly employed machine learning researcher, they want you to come up with a robust predictive model that would help them identify customers who would or would not subscribe to their term deposit in the future. The main goal of this project as a machine learning researcher is to carry out data exploration, data cleaning, feature extraction, and developing robust machine learning algorithms that would aid them in the department.</span></p>
+        <p>
+          <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week6"><button>View Code</button></a>
+          <button onclick="myFunction6()" id="myBtn7">Read more</button>
+        </p>
       </ul>
     </div>
   </section>
