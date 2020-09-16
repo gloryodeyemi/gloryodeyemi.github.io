@@ -6,7 +6,7 @@
 
 <body>
   <div class="clearfix">
-      <img src="/assets/images/me.jpg" alt="Glory" class="cont">  
+      <img src="/assets/images/me2.jpg" alt="Glory" class="cont">  
       <p class="clearp">Odeyemi Glory at a glance.</p>
       <p class="clearbutton"><a href="About.md"><button id="myBtn">About me</button></a></p>
   </div>
