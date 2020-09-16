@@ -1,19 +1,27 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
-#### [Home](README.md) | [Resume/CV](CV.md) | [Home](Home.md)
+  <ul>
+    <a href="Home.html">Home</a>
+    <a href="CV2.html">Resume/CV</a>
+  </ul>
 
-# Projects  
-This contains information about all the projects I've worked on personally or with a team. Please feel free to contact me on: [LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/), [Twitter](https://twitter.com/gloryodeyemi), or send me an email: gloryodeyemi.nike@gmail.com about the projects, job opportunities, or collaborations.
-
-## Data Science
-
-### 10 Academy
-I am currently undergoing a Data Science Training at [10 Academy](https://www.10academy.org/) and this contains my solution to all the weekly challenges given.
-* Week 1 - [Twitter User Segmentation](https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1)
-
+  <!-- DATA SCIENCE -->
+  <section>
+    <h1>Projects - Data Science</h1>
+    <div>
+      <h3>10 Academy</h3>
+      <p><a href="https://www.10academy.org/">10 Academy</a> identifies, trains and enables exceptionally talented young Africans to have an outsized impact on the world.</p>
+      <p>I am currently undergoing a Data Science Training at 10 Academy and this contains my solution to all the weekly challenges given.</p>
+      <ul>
+        <li><strong>Week 1 - Twitter User Segmentation</strong></li>
+          <p><a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1"><button>View Code</button></a></p>
+      </ul>
+    </div>
+  </section>
 </body>
 </html>
