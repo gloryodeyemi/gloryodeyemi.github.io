@@ -1,52 +1,28 @@
-#### [Home](README.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
+<html>
+ 
+<head>
+ <link rel="stylesheet" href=/assets/css/style.css">
+</head>
 
-# Odeyemi Glory Adenike
-![Glory](https://github.com/gloryodeyemi/gloryodeyemi.github.io/blob/master/Glory%20-%20Imgur.jpg)
+<body>
 
-I see you are interested in getting to know me more, well, I have been expecting you...Let's dive in, shall we?  
+ <h1>Odeyemi Glory Adenike</h1>
+ <img id="aboutpic" src="/assets/images/me3.jpeg">
+ 
+ <div>
+  <h3>Contacts</h3>
+ </div>
 
-**Note:** I am too lazy to write a comprehension, essay, or whatever it is called, I am just going to list my details as bullet points. Are we good? Go ahead then
+ <div>
+  <h3>Favorite Quotes</h3>
+  <ul>
+    <li>"When the purpose of a thing is not known, the abuse of it is inevitable." - <em>Myles Munroe</em></li>
+    <li>"Tell me and I forget, Teach me and I remember, Involve me and I learn." - <em>Anonymous</em></li>
+    <li>"Choose a path, and make your mark!" - <em>Microsoft Technology</em></li>
+    <li>"Never let your curiousity wane." - <em>Anonymous</em></li>
+    <li>"Always see the bigger picture in everything." - <em>Anonymous</em></li>
+  </ul>
+ </div>
 
-* **Name:** Odeyemi Glory Adenike  
-
-* **Career path:** Data Science and Project Management Enthusiast
-
-* **Vocational Skill:** Hair Styling and Wig making
-
-##### Other Details
-
-* **Gender:** Female obviously, lol.  
-
-* **Age:** I don't think this is quite necessary.
-
-* **State of Origin:** Ekiti state
-
-* **Nationality:** Nigerian
-
-* **Location:** Lagos, Nigeria.
-
-* **Religion:** Christianity
-
-* **Hobbies/Interest:**
-  * Games
-  * Music
-  * Books
-  * Poetry
-  
-* **Favorite Quotes:**
-  > "When the purpose of a thing is not known, the abuse of it is inevitable." - _Myles Munroe_
-  >
-  > "Tell me and I forget, Teach me and I remember, Involve me and I learn." - _Anonymous_
-  >
-  > "Choose a path, and make your mark!" - _Microsoft Technology_
-  >
-  > "Never let your curiousity wane." - _Anonymous_
-  >
-  > "Always see the bigger picture in everything." - _Anonymous_
-  
-Okay, I think that's just about it, there's nothing much to know about me or maybe there is...well, that's it for now.
-
-### Let's Talk Business
-I'm open to job opportunities, projects, or collaborations. Feel free to contact me on any of these, I'll be sure to reply.  
-[LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/) | [Twitter](https://twitter.com/gloryodeyemi) | [Facebook](https://web.facebook.com/Gloowwwry) | gloryodeyemi.nike@gmail.com
-
+</body>
+</html>
