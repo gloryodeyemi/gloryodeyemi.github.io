@@ -15,7 +15,12 @@
       <ul>
         <li><strong>Week 1 - Twitter User Segmentation</strong></li>
         <img src="/assets/images/week1.png" alt="Week 1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+        <p>Nike Inc is planning a new digital campaign in Africa, and wants to understand who the social media influencers are in Africa and in which area fall into (e.g. politics, fashion, art, etc.). This is key to Nike as they don’t want to be associated with the wrong influencers (ethnic and religious polarisation figures for example)<span id="dots">...</span><span id="more">They want to think about:
+          <ul>
+            <li>Could they try to partner with or hire some key influencers to amplify their planned digital campaign?<li>
+            <li>How are the influencers endorsed by key government officials?</li>
+            <li>Which topics are important for both influencers and key government officials?</li>
+          </ul></span></p>
         <p>
           <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1"><button>View Code</button></a>
           <button onclick="myFunction()" id="myBtn2">Read more</button>
