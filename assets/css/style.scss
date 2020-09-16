@@ -4,17 +4,22 @@
 @import "{{ site.theme }}";
 
 .cont {
-  width: 300px;
-  height: 400px;
+  width: 500px;
+  height: 350px;
 }
 
 .clearfix {
   width: 400px;
   height: 500px;
   margin: auto;
+  margin-bottom: 20px; 
 }
 
 .clearbutton {
+  text-align: center;
+}
+
+.clearp {
   text-align: center;
 }
 
