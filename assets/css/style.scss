@@ -13,6 +13,18 @@
   overflow: auto;
 }
 
+#myBtn {
+  background-color: #3B5998;
+  padding: 5px;
+  color: white;
+  border-radius: 10%;
+}
+
+#myBtn:hover {
+  background-color: #55ACEE;
+  cursor: pointer;
+}
+
 .copy {
   text-align: center;
 }
