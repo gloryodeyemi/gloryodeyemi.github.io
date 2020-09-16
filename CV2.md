@@ -43,14 +43,14 @@
   
   <h4>Formal Education</h4>
   <strong>BSc. Computer Science (09/2015 – 07/2019)</strong>
-  <a href="https://www.bowenuniversity.edu.ng"<p>Bowen University - <i>Iwo, Osun State</i></p></a>
+  <p><a href="https://www.bowenuniversity.edu.ng">Bowen University - <i>Iwo, Osun State</i></a></p>
   
   <h4>Training</h4>
   <ul>
     <li><strong>Job Ready Data Scientists (07/2020 – Present)</strong></li>
-    <p><a href="https://www.10academy.org/"<i>10 Academy</i></a></p>
+    <p><a href="https://www.10academy.org/"><i>10 Academy</i></a></p>
     <li><strong>Data Analysis with Python (01/2020 – 03/2020)</strong></li>
-    <p><a href="https://www.zacrac.com"<i>Zacrac Integrated Limited</i></a></p>
+    <p><a href="https://www.zacrac.com"><i>Zacrac Integrated Limited</i></a></p>
     <li><strong>Strategic Management (09/2019 – 12/2019)</strong></li>
     <p><i>International Strategic Management Institute (ISMI)</i></p>
   </ul>
@@ -77,7 +77,7 @@
   <hr>
  
   <strong>ICT Community Development Service Group (09/2019 – 07/2020)</strong>
-  <i>Financial Secretary</i> 
+  <p><i>Financial Secretary</i></p>
   <ul>
    <li>Actively participated in sensitization by visiting different schools and enlightening the students on the basics of ICT and its advantages.</li>
    <li>Provided free Jamb Computer-based test (CBT) training for students.</li>
@@ -98,7 +98,7 @@
   </ul>
 
   <strong>Electoral Committee (NACOSS) (09/2018 – 07/2019)</strong>
-  <i>Welfare coordinator</i> 
+  <p><i>Welfare coordinator</i></p>
   <ul>
    <li>Provided adequate care to lecturers and students during the 2018/2019 NACOSS executives’ campaigns, manifesto, and election as the welfare coordinator.</li>
    <li>Ensured the 2018/2019 NACOSS executives’ election conducted was free and fair.</li>
