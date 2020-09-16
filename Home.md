@@ -8,25 +8,25 @@
   <div class="clearfix">
       <img src="/assets/images/me.jpg" alt="Glory" class="cont">  
       <p class="clearp">Odeyemi Glory at a glance.</p>
-      <p><a href="About.md"><button id="myBtn">About me</button></a></p>
+      <p class="clearbutton"><a href="About.md"><button id="myBtn">About me</button></a></p>
   </div>
   
   <div class="clearfix">
       <img src="/assets/images/unnamed.jpg" alt="Projects" class="cont">  
       <p class="clearp">Nerd Alert!!! Click to see exciting projects I've worked on.</p>
-      <p><a href="Projects.md"><button id="myBtn">Projects</button></a></p>
+      <p class="clearbutton"><a href="Projects.md"><button id="myBtn">Projects</button></a></p>
   </div>
   
   <div class="clearfix">
       <img src="/assets/images/resume-icon-16.jpg" alt="Resume" class="cont">
       <p class="clearp">Contact me for job opportunities.</p>
-      <p><a href="CV.md"><button id="myBtn">Resume/CV</button></a></p>
+      <p class="clearbutton"><a href="CV.md"><button id="myBtn">Resume/CV</button></a></p>
   </div>
   
   <div class="clearfix">
       <img src="/assets/images/unnamed.jpg" alt="Projects" class="cont">
       <p class="clearp">Still working on the addition to make, suggestions are highly welcomed.</p>
-      <p><a href="Home.html"><button id="myBtn">Home</button></a></p>
+      <p class="clearbutton"><a href="Home.html"><button id="myBtn">Home</button></a></p>
   </div>
 
 </body>
