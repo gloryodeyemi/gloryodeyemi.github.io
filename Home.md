@@ -26,7 +26,7 @@
   <div class="clearfix">
       <img src="/assets/images/unnamed.jpg" alt="Projects" class="cont">
       <p class="clearp">Still working on the addition to make, suggestions are highly welcomed.</p>
-      <p class="clearbutton"><a href="Home.html"><button id="myBtn">Home</button></a></p>
+      <p class="clearbutton"><a href="Projects2.html"><button id="myBtn">Home</button></a></p>
   </div>
 
 </body>
