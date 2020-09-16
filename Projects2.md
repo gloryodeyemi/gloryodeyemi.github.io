@@ -27,12 +27,21 @@
           <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week2"><button>View Code</button></a>
           <button onclick="myFunction2()" id="myBtn3">Read more</button>
         </p> 
-        <li><strong>Week 3 - User Analytics in the Telecommunication Industry - Overview</strong></li>
+        <li><strong>Week 3 - Change Point Analysis to Quantify the Impact of African Government Policy Interventions to Slow the Spread of COVID-19 (Case Study – South Africa)</strong></li>
         <img class="project" src="/assets/images/week3.jpg" alt="Week 3">
         <p>The project aims to gather insights from South Africa on which public health and social measures are most effective at reducing the spread of Covid-19. It aims to identify which interventions had the most effect on the country and the African Union is looking to the analysis to both drive<span id="dots3">...</span><span id="more3"> policy recommendations to countries in Africa on how to deal with Covid-19 as well as to help countries prepare for future pandemics. The main objective of this project is to quantify the statistical significance of a public health policy introduced by African governments to slow down the spread of COVID-19.</span></p>
         <p>
           <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week3"><button>View Code</button></a>
           <button onclick="myFunction3()" id="myBtn4">Read more</button>
+        </p>
+        <li><strong>Week 4 - A/B Hypothesis Testing: Ad campaign performance</strong></li>
+        <img class="project" src="/assets/images/week4.png" alt="Week 4">
+        <p>SmartAd is a mobile first advertiser agency. It designs Intuitive touch-enabled advertising. It provides brands with an automated advertising experience via machine
+learning and creative excellence. Their company is based on the principle of voluntary participation which is proven to increase brand engagement and memorability 10 x more
+than static alternatives. <span id="dots4">...</span><span id="more4">SmartAd provides an additional service called Brand Impact Optimiser (BIO), a lightweight questionnaire, served with every campaign to determine the impact of the creative, the ad they design, on various upper funnel metrics, including memorability and brand sentiment. As a data scientist in SmartAd, one of your tasks is to design a reliable hypothesis testing algorithm for the BIO service and to determine whether a recent advertising campaign resulted in a significant lift in brand awareness. The main objective of this project is to test if the ads that the advertising company runs resulted in a significant lift in brand awareness.</span></p>
+        <p>
+          <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week4"><button>View Code</button></a>
+          <button onclick="myFunction4()" id="myBtn5">Read more</button>
         </p>
       </ul>
     </div>
@@ -80,6 +89,48 @@
         dots3.style.display = "none";
         btnText3.innerHTML = "Read less"; 
         moreText3.style.display = "inline";
+      }
+    }
+    function myFunction4() {
+      var dots4 = document.getElementById("dots4");
+      var moreText4 = document.getElementById("more4");
+      var btnText4 = document.getElementById("myBtn5");
+      if (dots4.style.display === "none") {
+        dots4.style.display = "inline";
+        btnText4.innerHTML = "Read more"; 
+        moreText4.style.display = "none";
+      } else {
+        dots4.style.display = "none";
+        btnText4.innerHTML = "Read less"; 
+        moreText4.style.display = "inline";
+      }
+    }
+    function myFunction5() {
+      var dots5 = document.getElementById("dots5");
+      var moreText5 = document.getElementById("more5");
+      var btnText5 = document.getElementById("myBtn6");
+      if (dots5.style.display === "none") {
+        dots5.style.display = "inline";
+        btnText5.innerHTML = "Read more"; 
+        moreText5.style.display = "none";
+      } else {
+        dots5.style.display = "none";
+        btnText5.innerHTML = "Read less"; 
+        moreText5.style.display = "inline";
+      }
+    }
+    function myFunction6() {
+      var dots6 = document.getElementById("dots6");
+      var moreText6 = document.getElementById("more6");
+      var btnText6 = document.getElementById("myBtn7");
+      if (dots6.style.display === "none") {
+        dots6.style.display = "inline";
+        btnText6.innerHTML = "Read more"; 
+        moreText6.style.display = "none";
+      } else {
+        dots6.style.display = "none";
+        btnText6.innerHTML = "Read less"; 
+        moreText6.style.display = "inline";
       }
     }
 </script>
