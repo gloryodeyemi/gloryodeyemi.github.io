@@ -21,15 +21,14 @@
   text-align: center;
 }
 
-
-#myBtn {
+button {
   background-color: #3B5998;
   padding: 5px;
   color: white;
   border-radius: 10%;
 }
 
-#myBtn:hover {
+button:hover {
   background-color: #55ACEE;
   cursor: pointer;
 }
