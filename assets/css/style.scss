@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+// Header
 .link {
   text-align: center;
 }
@@ -13,6 +14,12 @@
   padding: 10px;
 }
 
+// Resume
+#name, #add {
+  text-align: center;
+}
+
+// Projects
 .project {
   width: 600px;
 }
@@ -50,10 +57,12 @@ button:hover {
   //clear: both;
 //}
 
+// Footer
 .copy {
   text-align: center;
 }
 
+// Social media icons
 .fa {
   padding: 20px;
   font-size: 30px;
