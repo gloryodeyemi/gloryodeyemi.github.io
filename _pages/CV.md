@@ -9,7 +9,6 @@
   <h1 id="name">GLORY ODEYEMI</h1>
   <p id="add">gloryodeyemi.nike@gmail.com | 09021003355 | Lagos, Nigeria. </p>
   <hr>
-  <h2>SUMMARY</h2> 
   <p>An adaptable, motivated, strongly focused, and hardworking graduate, with the ability to complete tasks accurately in a fast-paced environment with conflicting deadlines.</p>
   <hr>
  </div>
