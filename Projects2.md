@@ -15,12 +15,7 @@
       <ul>
         <li><strong>Week 1 - Twitter User Segmentation</strong></li>
         <img src="/assets/images/week1.png" alt="Week 1">
-        <p>Nike Inc is planning a new digital campaign in Africa, and wants to understand who the social media influencers are in Africa and in which area fall into (e.g. politics, fashion, art, etc.). This is key to Nike as they don’t want to be associated with the wrong influencers (ethnic and religious polarisation figures for example)<span id="dots">...</span><span id="more">They want to think about:
-          <ul>
-            <li>Could they try to partner with or hire some key influencers to amplify their planned digital campaign?<li>
-            <li>How are the influencers endorsed by key government officials?</li>
-            <li>Which topics are important for both influencers and key government officials?</li>
-          </ul></span></p>
+        <p>Nike Inc is planning a new digital campaign in Africa, and wants to understand who the social media influencers are in Africa and in which area fall into (e.g. politics, fashion, art, etc.). This is key to Nike as they don’t want to be associated with the wrong influencers (ethnic and religious polarisation figures for example)<span id="dots">...</span><span id="more">They want to think about: Could they try to partner with or hire some key influencers to amplify their planned digital campaign?, How are the influencers endorsed by key government officials?, Which topics are important for both influencers and key government officials? The aim is to help Nike Inc. identify top African twitter influencers that is best fit for partnership or hire for its digital campaign in Africa.</span></p>
         <p>
           <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/75ce65fb1d47fd699dd79697c21c711af0a77d96/week1"><button>View Code</button></a>
           <button onclick="myFunction()" id="myBtn2">Read more</button>
