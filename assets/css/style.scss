@@ -3,10 +3,10 @@
 
 @import "{{ site.theme }}";
 
-.cont {
-  width: 300px;
-  height: 200px;
-}
+//.cont {
+  //width: 300px;
+  //height: 200px;
+//}
 
 .clearfix {
   width: 40%;
@@ -35,6 +35,7 @@
 }
 
 .fa {
+  clear: left;
   padding: 20px;
   font-size: 30px;
   width: 30px;
