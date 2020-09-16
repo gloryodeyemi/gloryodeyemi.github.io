@@ -111,7 +111,7 @@
   <hr>
 
   <strong>Academic Excellence (05/2019)</strong>
-  <i>National Association of Computer Science Students, Bowen Chapter</i>
+  <p><i>National Association of Computer Science Students, Bowen Chapter</i></p>
   <hr>
  </div>
  
