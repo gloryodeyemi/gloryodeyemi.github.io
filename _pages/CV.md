@@ -1,12 +1,19 @@
-#### [Home](README.md) | [Projects](Projects.md)
+<html>
+ 
+<head>
+ <link rel="stylesheet" href="/assets/css/style.css">
+</head>
 
-## GLORY ODEYEMI
-* **Email:** gloryodeyemi.nike@gmail.com 
-* **Location:** Lagos, Nigeria.  
-* **Links:** [LinkedIn](linkedin.com/in/glory-odeyemi-a3a680169)  [GitHub](https://github.com/gloryodeyemi)  [GitHub Page](https://gloryodeyemi.github.io/)
+<body>
+ <div>
+  <h1 id="name">GLORY ODEYEMI</h1>
+  <p id="add">gloryodeyemi.nike@gmail.com | 09021003355 | Lagos, Nigeria. </p>
+  <hr>
+  <h2>SUMMARY</h2> 
+  <p>An adaptable, motivated, strongly focused, and hardworking graduate, with the ability to complete tasks accurately in a fast-paced environment with conflicting deadlines.</p>
+  <hr>
+ </div>
 
-### SUMMARY  
-An adaptable, motivated, strongly focused, and hardworking graduate, with the ability to complete tasks accurately in a fast-paced environment with conflicting deadlines.
 
 ### WORK EXPERIENCE
 
@@ -91,3 +98,6 @@ _International Strategic Management Institute (ISMI)_
 ### HOBBIES/INTEREST
 
 ```Books``` ```Games``` ```Poetry``` ```Music```
+
+</body>
+</html>
