@@ -19,7 +19,7 @@
  
   <strong>Corp Member (09/2019 - 07/2020)</strong>
   <p>Federal University of Technology, Akure.</p> 
-  <i>School of Postgraduate Studeies, Dean's Office</i> 
+  <p><em>School of Postgraduate Studeies, Dean's Office</em></p> 
   <ul>
    <li>Receiving and screening of high volume of internal and external communications, including mails and other official documents.</li>
    <li>Dispatching of treated mails and documents.</li>
@@ -28,7 +28,7 @@
   </ul>
   <strong>Student Intern (03/2018 - 08/2018)</strong>
   <p>Gems Consulting Company Limited</p> 
-  <i>NAV Department</i> 
+  <p><em>NAV Department</em></p>
   <ul>
    <li>Designed efficient reports using Microsoft Dynamics NAV and Microsoft Visual Studio.</li>
    <li>Effectively imported and exported data using Microsoft Dynamics NAV and Microsoft Excel.</li>
@@ -43,16 +43,16 @@
   
   <h4>Formal Education</h4>
   <strong>BSc. Computer Science (09/2015 – 07/2019)</strong>
-  <p><a href="https://www.bowenuniversity.edu.ng">Bowen University - <i>Iwo, Osun State</i></a></p>
+  <p><a href="https://www.bowenuniversity.edu.ng">Bowen University</a> - <em>Iwo, Osun State</em></p>
   
   <h4>Training</h4>
   <ul>
     <li><strong>Job Ready Data Scientists (07/2020 – Present)</strong></li>
-    <p><a href="https://www.10academy.org/"><i>10 Academy</i></a></p>
+    <p><em><a href="https://www.10academy.org/">10 Academy</a></em></p>
     <li><strong>Data Analysis with Python (01/2020 – 03/2020)</strong></li>
-    <p><a href="https://www.zacrac.com"><i>Zacrac Integrated Limited</i></a></p>
+    <p><em><a href="https://www.zacrac.com">Zacrac Integrated Limited</a></em></p>
     <li><strong>Strategic Management (09/2019 – 12/2019)</strong></li>
-    <p><i>International Strategic Management Institute (ISMI)</i></p>
+    <p><em>International Strategic Management Institute (ISMI)</em></p>
   </ul>
   <hr>
  </div>
@@ -77,7 +77,7 @@
   <hr>
  
   <strong>ICT Community Development Service Group (09/2019 – 07/2020)</strong>
-  <p><i>Financial Secretary</i></p>
+  <p><em>Financial Secretary</em></p>
   <ul>
    <li>Actively participated in sensitization by visiting different schools and enlightening the students on the basics of ICT and its advantages.</li>
    <li>Provided free Jamb Computer-based test (CBT) training for students.</li>
@@ -98,7 +98,7 @@
   </ul>
 
   <strong>Electoral Committee (NACOSS) (09/2018 – 07/2019)</strong>
-  <p><i>Welfare coordinator</i></p>
+  <p><em>Welfare coordinator</em></p>
   <ul>
    <li>Provided adequate care to lecturers and students during the 2018/2019 NACOSS executives’ campaigns, manifesto, and election as the welfare coordinator.</li>
    <li>Ensured the 2018/2019 NACOSS executives’ election conducted was free and fair.</li>
@@ -111,7 +111,7 @@
   <hr>
 
   <strong>Academic Excellence (05/2019)</strong>
-  <p><i>National Association of Computer Science Students, Bowen Chapter</i></p>
+  <p><em>National Association of Computer Science Students, Bowen Chapter</em></p>
   <hr>
  </div>
  
@@ -121,11 +121,11 @@
  
   <ul>
    <li><a href="https://drive.google.com/file/d/1hJHCdoZUOizyQqw13gON_ovKPVhfZDb-/view?usp=sharing">The Fundamentals of Digital Marketing</a> (06/2020)</li>
-   <p><i>Google Digital Skills for Africa</i></p>
+   <p><em>Google Digital Skills for Africa</em></p>
    <li><a href="https://drive.google.com/file/d/1r9GX-pBhp-GASSvKzFc6oYk3N9fGum2s/view?usp=sharing">Data Analysis with Python</a> (03/2020)</li>
-   <p><i>Zacrac Integrated Limited with NYSC SAED</i></p>
+   <p><em>Zacrac Integrated Limited with NYSC SAED</em></p>
    <li><a href="https://drive.google.com/file/d/1PX6CV3h_K8PIk8ERV7DVLjKMxwoM9yGF/view?usp=sharing">Proficiency Certificate in Strategic Management</a> (02/2020)</li>
-   <p><i>International Strategic Management Institute (ISMI)</i></p>
+   <p><em>International Strategic Management Institute (ISMI)</em></p>
   </ul>
   <hr>
  </div>
