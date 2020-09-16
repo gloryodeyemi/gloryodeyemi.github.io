@@ -30,12 +30,15 @@
   cursor: pointer;
 }
 
+.outer {
+  clear: both;
+}
+
 .copy {
   text-align: center;
 }
 
 .fa {
-  clear: left;
   padding: 20px;
   font-size: 30px;
   width: 30px;
