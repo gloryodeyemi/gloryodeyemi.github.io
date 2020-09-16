@@ -14,7 +14,7 @@
   <div class="clearfix">
       <img src="/assets/images/unnamed.jpg" alt="Projects" class="cont">  
       <p class="clearp">Nerd Alert!!! Click to see exciting projects I've worked on.</p>
-      <p class="clearbutton"><a href="Projects.md"><button id="myBtn">Projects</button></a></p>
+      <p class="clearbutton"><a href="Projects2.html"><button id="myBtn">Projects</button></a></p>
   </div>
   
   <div class="clearfix">
