@@ -1,52 +1,48 @@
-#### [Home](README.md) | [Projects](Projects.md) | [Resume/CV](CV.md)
+<html>
+ 
+<head>
+ <link rel="stylesheet" href="/assets/css/style.css">
+</head>
 
-# Odeyemi Glory Adenike
-![Glory](https://github.com/gloryodeyemi/gloryodeyemi.github.io/blob/master/Glory%20-%20Imgur.jpg)
+<body>
 
-I see you are interested in getting to know me more, well, I have been expecting you...Let's dive in, shall we?  
+ <h1>Odeyemi Glory Adenike</h1>
+ <img id="aboutpic" src="/assets/images/me3.jpeg">
+ 
+ <div>
+ <h3>Summary</h3>
+ <p>I am an adaptable recent university graduate (Bachelor of Science in Computer Science, First Class Honors) from Bowen University. During the course of my academic career, I also managed to accrue 6 months of work experience. I had the privilege of working for Gems Consulting Company Limited in a student intern role, where I learned valuable professional skills while working with software like Microsoft Dynamics NAV, Excel, and Visual Studio. Also, I volunteered as a member of the ICT Innovation team responsible for gathering requirements, development,  and deployment of mobile applications.</p>
 
-**Note:** I am too lazy to write a comprehension, essay, or whatever it is called, I am just going to list my details as bullet points. Are we good? Go ahead then
+ <p>During the course of my National Youth Service Corps, I was privileged to gain administrative skills at Federal University of Technology, Akure, Ondo State. I was assigned to the Dean's office, School of Postgraduate Studies where I had the opportunity to work with students and other administrative staff. As part of the experiences gained during my NYSC, I volunteered as a member of the Evaluation Committee while on camp where we analyzed data gotten from questionnaires using SPSS. In an attempt to gain more knowledge on Data Analysis, I enrolled for a 2-months course on Data Analysis with Python at Zacrac Integrated Limited in conjunction with NYSC Skills Acquisition and Entrepreneurship Development program.</p>
 
-* **Name:** Odeyemi Glory Adenike  
+ <p>While I await employment, I am currently enrolled as a trainee at 10 Academy batch 3 training in an attempt to gain the necessary skills and knowledge needed to be a job-ready Data Scientist.</p>
 
-* **Career path:** Data Science and Project Management Enthusiast
+ <p>In both my academic and professional life, I have been consistently praised as diligent by my professors and peers. Whether working on academic, extracurricular, or professional projects, I apply proven analytical, organizational, and problem-solving skills, which I hope to leverage into my role at any reputable organization.</p>
+ </div>
+ 
+ <div>
+  <h3>Contact me</h3>
+  <p class="linkhead">
+    <a href="https://www.github.com/gloryodeyemi" class="fa fa-github"></a>
+    <a href="https://www.facebook.com/gloowwwry" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com/GloryOdeyemi" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/glory-odeyemi-a3a680169" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/phearlzz/" class="fa fa-instagram"></a>
+    <a href="callto:+234902-100-3355" class="fa fa-skype"></a>
+    <a href="mailto:gloryodeyemi.nike@gmail.com" class="fa fa-google"></a>
+  </p>
+ </div>
 
-* **Vocational Skill:** Hair Styling and Wig making
+ <div>
+  <h3>Favorite Quotes</h3>
+  <ul>
+    <li>"When the purpose of a thing is not known, the abuse of it is inevitable." - <em>Myles Munroe</em></li>
+    <li>"Tell me and I forget, Teach me and I remember, Involve me and I learn." - <em>Anonymous</em></li>
+    <li>"Choose a path, and make your mark!" - <em>Microsoft Technology</em></li>
+    <li>"Never let your curiousity wane." - <em>Anonymous</em></li>
+    <li>"Always see the bigger picture in everything." - <em>Anonymous</em></li>
+  </ul>
+ </div>
 
-##### Other Details
-
-* **Gender:** Female obviously, lol.  
-
-* **Age:** I don't think this is quite necessary.
-
-* **State of Origin:** Ekiti state
-
-* **Nationality:** Nigerian
-
-* **Location:** Lagos, Nigeria.
-
-* **Religion:** Christianity
-
-* **Hobbies/Interest:**
-  * Games
-  * Music
-  * Books
-  * Poetry
-  
-* **Favorite Quotes:**
-  > "When the purpose of a thing is not known, the abuse of it is inevitable." - _Myles Munroe_
-  >
-  > "Tell me and I forget, Teach me and I remember, Involve me and I learn." - _Anonymous_
-  >
-  > "Choose a path, and make your mark!" - _Microsoft Technology_
-  >
-  > "Never let your curiousity wane." - _Anonymous_
-  >
-  > "Always see the bigger picture in everything." - _Anonymous_
-  
-Okay, I think that's just about it, there's nothing much to know about me or maybe there is...well, that's it for now.
-
-### Let's Talk Business
-I'm open to job opportunities, projects, or collaborations. Feel free to contact me on any of these, I'll be sure to reply.  
-[LinkedIn](https://www.linkedin.com/in/glory-odeyemi-a3a680169/) | [Twitter](https://twitter.com/gloryodeyemi) | [Facebook](https://web.facebook.com/Gloowwwry) | gloryodeyemi.nike@gmail.com
-
+</body>
+</html>
