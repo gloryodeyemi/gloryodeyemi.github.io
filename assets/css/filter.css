@@ -1,0 +1,71 @@
+/* Filter Button Styling */
+.filter-buttons {
+    margin-bottom: 2rem;
+  }
+  .filter-button {
+    /* font-size: 0.9rem; */
+    font-weight: 600;
+    /* padding: 0.5rem 1.2rem; */
+    /* border: 2px solid #d10024; */
+    background: transparent;
+    /* color: #d10024; */
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  /* .filter-button:hover {
+    /* background: #d10024; */
+    /* color: #fff; */
+  /* } */ */
+  /* .filter-button.active {
+    background: #d10024;
+    color: #fff;
+  } */
+  
+  /* Project Skill Tags (compact) */
+  ul.project-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    list-style: none;
+    padding: 0;
+    /* margin: 0.5rem 0 0.8rem 0;  */
+    /* 👈 Add space below */
+  }
+  
+  ul.project-skills li {
+    font-size: 0.55rem;          /* 👈 Smaller font */
+    padding: 2px 8px;            /* 👈 Smaller padding */
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    /* color: #333; */
+  }
+  
+  ul.project-skills i {
+    font-size: 0.85rem;          /* 👈 Smaller icon */
+    color: var(--accent, #d10024);
+  }
+  
+  .project-card .actions {
+    margin-top: 0.8rem;
+  }
+
+  
+  /* Justified project text */
+  .project-card .description {
+    text-align: justify;
+    min-height: 100px; /* adjust for consistency */
+  }
+
+  .project-card {
+    display: none;
+  }
+  .project-card.show {
+    display: block;
+  }
+  
+  
