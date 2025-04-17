@@ -30,6 +30,7 @@
     gap: 0.3rem;
     list-style: none;
     padding: 0;
+    /* margin: 0.2rem 0 0.8rem 0; */
     /* margin: 0.5rem 0 0.8rem 0;  */
     /* 👈 Add space below */
   }
@@ -56,10 +57,16 @@
 
   
   /* Justified project text */
+  /* .project-card .description {
+    text-align: justify;
+    min-height: 100px;
+  } */
   .project-card .description {
     text-align: justify;
-    min-height: 100px; /* adjust for consistency */
+    margin-bottom: 0.5rem; /* ⬅️ tighter spacing below text */
+    min-height: 100px;
   }
+  
 
   .project-card {
     display: none;
@@ -67,5 +74,29 @@
   .project-card.show {
     display: block;
   }
+
+  .skill-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .skill-logos li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    background: #f5f5f5;
+    padding: 6px 12px;
+    border-radius: 6px;
+  }
+  .skill-logos img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
   
   
