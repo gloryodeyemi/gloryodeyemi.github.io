@@ -12,7 +12,11 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/filter.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
+		<style>
+			p {
+			  text-align: justify;
+			}
+		  </style>		  
 	</head>
 	<body class="is-preload">
 
@@ -46,6 +50,8 @@
 											<p>Data Engineer & Analyst</p>
 										</header>
 										<p>I specialize in designing scalable data pipelines, transforming raw data into actionable insights, and building dashboards that tell compelling stories. With a background in computer science and artificial intelligence, I bridge the gap between raw data and business impact using tools like Python, SQL, Snowflake, Tableau, Excel, and Airflow.</p>
+										<!-- <p>Beyond tech, I’m a curious soul who loves learning new things and helping others grow. I enjoy quiet evenings with a good book, long walks when I need to reset, and the occasional deep dive into random documentaries. My faith is a big part of who I am, and I strive to reflect that in how I work and relate with people. I’m Nigerian, currently living in Canada, and still adjusting to winter (and Canadian snacks!).</p> -->
+										<p>Beyond tech, I’m a curious soul who loves learning new things and helping others. I am a calm and introverted person who enjoys simple joys like reading books, watching movies, listening to gospel music, and playing games. While I love my quiet time, I value deep conversations and meaningful connections. My faith is an important part of my life, and it shapes how I show up - in work, in learning, and in community. I’m Nigerian, currently living in Windsor, ON, Canada, and still adjusting to winter.</p>
 										<ul class="actions">
 											<li><a href="#projects" class="button big">View My Work</a></li>
 											<li><a href="assets/resume.pdf" class="button icon solid fa-download">My Resume</a></li>
@@ -93,63 +99,6 @@
 									</div>
 								</section>
 
-							<!-- Section -->
-								<!-- <section id="projects">
-									<header class="major">
-										<h2>Recent Projects</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/summary-dashboard.jpg" alt="" /></a>
-											<h3>Beauty Product Purchase Pipeline</h3>
-											<p>An automated end-to-end pipeline to extract, transform, and load beauty purchase data for analysis and visualization using Python, Snowflake, Airflow, and Tableau.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/coffee-sales-dashboard.jpg" alt="" /></a>
-											<h3>Coffee Sales Excel Dashboard</h3>
-											<p>An interactive Excel dashboard designed to analyze and visualize coffee sales across multiple dimensions — customers, countries, product types, and time periods.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/sales-dashboard.jpg" alt="" /></a>
-											<h3>Sales & Customer Tableau Dashboards</h3>
-											<p>Interactive Sales Performance and Customer Analysis Tableau dashboards designed to help business stakeholders analyze sales trends, understand customer behaviour, and make data-driven decisions.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/weather_sales_trend_chart.jpg" alt="" /></a>
-											<h3>Weather and Sales Trend Pipeline</h3>
-											<p>An end-to-end data pipeline that integrates weather data with sales trends using Snowflake for data storage and processing.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/product_review.jpg" alt="" /></a>
-											<h3>Product Review Class Label Prediction</h3>
-											<p>Product review class label (0 - for negative, 1 for positive) prediction with different models.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/bank-institute.jpg" alt="" /></a>
-											<h3>Bank Institution Term Deposit Predictive Model</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section> -->
-
 								<!-- Project filter buttons -->
 								<section id="projects">
 									<header class="major">
@@ -183,7 +132,7 @@
 									<article class="project-card data-analysis">
 										<a href="#" class="image"><img src="images/coffee-sales-dashboard.jpg" alt="" /></a>
 										<h3>Coffee Sales Excel Dashboard</h3>
-										<p class="description">An interactive Excel dashboard designed to analyze and visualize coffee sales across multiple dimensions — customers, countries, product types, and time periods.</p>
+										<p class="description">An interactive Excel dashboard designed to analyze and visualize coffee sales across multiple dimensions - customers, countries, product types, and time periods.</p>
 										<ul class="skill-logos icons-grid project-skills">
 											<li><img src="images/logos/excel.svg" alt="excel" /> Excel</li>
 											<li><img src="images/logos/data-report.svg" alt="data-viz" /> Data Visualization</li>
@@ -223,10 +172,12 @@
 									<article class="project-card ai-ml">
 										<a href="#" class="image"><img src="images/product_review.jpg" alt="" /></a>
 										<h3>Product Review Class Label Prediction</h3>
-										<p class="description">Product review class label (0 - for negative, 1 for positive) prediction with different models.</p>
+										<p class="description">Developed and compared five NLP models - FastText, BERT, DistilBERT, RoBERTa, and XLNet - to classify product reviews as positive or negative, using pre-trained architectures and fine-tuning techniques.</p>
 										<ul class="skill-logos icons-grid project-skills">
-										<li><i class="fas fa-brain"></i> Hugging Face</li>
-										<li><i class="fas fa-vials"></i> Scikit-learn</li>
+											<li><i class="devicon-python-plain colored"></i> Python</li>
+											<li><img src="images/logos/huggingface.svg" alt="huggingface" /> Hugging Face</li>
+											<li><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</li>
+											<li><i class="devicon-pytorch-plain colored"></i> PyTorch</li>
 										</ul>
 										<ul class="actions">
 										<li><a href="#" class="button">More</a></li>
@@ -236,10 +187,12 @@
 									<article class="project-card ai-ml">
 										<a href="#" class="image"><img src="images/bank-institute.jpg" alt="" /></a>
 										<h3>Bank Institution Term Deposit Predictive Model</h3>
-										<p class="description">Developed a predictive model to forecast customer term deposit subscription based on marketing campaign data.</p>
+										<!-- <p class="description">Developed a predictive model to forecast customer term deposit subscription based on marketing campaign data.</p> -->
+										<p class="description">Developed a predictive model using XGBoost and Stratified K-Fold to identify customers likely to subscribe to bank term deposits, addressing class imbalance and optimizing performance.</p>
 										<ul class="skill-logos icons-grid project-skills">
-										<li><i class="fab fa-python"></i> Python</li>
-										<li><i class="fas fa-vials"></i> Scikit-learn</li>
+											<li><i class="devicon-python-plain colored"></i> Python</li>
+											<li><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</li>
+											<li><img src="images/logos/eda.svg" alt="eda" /> Exploratory Data Analysis</li>
 										</ul>
 										<ul class="actions">
 										<li><a href="#" class="button">More</a></li>
@@ -282,21 +235,6 @@
 									  <h2>Skills & Technologies</h2>
 									</header>
 									<ul class="skill-logos icons-grid">
-									  	<!-- <li><i class="fab fa-python"></i> Python</li>
-									 	<li><i class="fas fa-database"></i> SQL</li>
-									 	<li><i class="fas fa-cloud"></i> Snowflake</li>
-										<li><i class="fas fa-stream"></i> Airflow</li>
-										<li><i class="fas fa-table"></i> Excel</li>
-									 	<li><i class="fas fa-chart-bar"></i> Tableau</li>
-									  	<li><i class="fas fa-project-diagram"></i> ETL Pipelines</li>
-									  	<li><i class="fas fa-network-wired"></i> Data Modeling</li>
-									  	<li><i class="fas fa-vials"></i> Scikit-learn</li>
-									  	<li><i class="fas fa-brain"></i> Hugging Face</li>
-									  	<li><i class="fab fa-git-alt"></i> Git</li>
-									  	<li><i class="fab fa-github"></i> GitHub</li> -->
-									  	<!-- <li><i class="fas fa-code"></i> Streamlit</li> -->
-									  	<!-- <li><i class="fas fa-tasks"></i> Asana</li>
-									  	<li><i class="fas fa-check-circle"></i> ClickUp</li> -->
 									  	<li><i class="devicon-python-plain colored"></i> Python</li>
 									  	<li><i class="devicon-postgresql-plain colored"></i> PostgreSQL</li>
 										<li><i class="devicon-mysql-plain colored"></i> MySQL</li>
@@ -308,6 +246,8 @@
 										<li><i class="fas fa-project-diagram"></i> ETL Pipelines</li>
 										<li><i class="fas fa-network-wired"></i> Data Modeling</li>
 									  	<li><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</li>
+										<li><i class="devicon-pytorch-plain colored"></i> PyTorch</li>
+										<li><i class="devicon-tensorflow-original colored"></i> TensorFlow</li>
 										<li><img src="images/logos/huggingface.svg" alt="huggingface" /> Hugging Face</li>
 										<li><i class="devicon-git-plain colored"></i> Git</li>
 										<li><i class="devicon-github-plain colored"></i> GitHub</li>
