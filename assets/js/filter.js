@@ -45,7 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
         // Update active state
         filterButtons.forEach(btn => btn.classList.remove("active"));
+        filterButtons.forEach(btn => btn.classList.remove("primary"));
         this.classList.add("active");
+        this.classList.add("primary");
   
         // Filter cards
         showProjects(selectedCategory);
