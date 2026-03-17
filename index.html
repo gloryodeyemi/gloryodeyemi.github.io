@@ -1,419 +1,998 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Glowcodes</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/filter.css" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-		<style>
-			p {
-			  text-align: justify;
-			}
-		  </style>		  
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glory Odeyemi - Portfolio</title>
+    <link rel="icon" type="image/png" href="images/profile/Glowcodes logo - dark.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+<body>
+    <!-- ─── Header ─────────────────────────────────────── -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="logo">Glory Odeyemi</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#interests" class="nav-link">Interests</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon theme-icon" id="themeIcon"></i>
+                    </button>
+                </li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>GLORY ODEYEMI |</strong> Portfolio</a>
-									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/glory-odeyemi/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/gloryodeyemi" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="https://glowcodes.medium.com/" target="_blank" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-										<li><a href="mailto:gloryodeyemi1@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-										<li><a href="https://twitter.com/GloryOdeyemi" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<!-- <li><a href="#" target="_blank" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li> -->
-										<li><a href="https://www.instagram.com/glow_inspired/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<!-- <li><a href="#" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-									</ul>
-								</header>
+    <!-- ─── Hero ───────────────────────────────────────── -->
+    <section id="home" class="hero">
+        <div class="hero-animated-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+            <div class="blob blob-4"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Glory Odeyemi</h1>
+                <p class="hero-subtitle">Data Engineer | Data Analyst</p>
+                <p class="hero-subtitle">I specialize in designing scalable data pipelines and transforming complex data
+                    into strategic insights that drive business decisions through advanced analytics and compelling
+                    visualizations.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary btn-home">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary btn-home">Get In Touch</a>
+                </div>
+                <div class="social-icons mt-3">
+                    <a href="https://www.linkedin.com/in/glory-odeyemi/" class="social-icon linkedin" target="_blank"
+                        rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/gloryodeyemi" class="social-icon github" target="_blank"
+                        rel="noopener"><i class="fab fa-github"></i></a>
+                    <a href="mailto:gloryodeyemi1@gmail.com" class="social-icon email"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://glowcodes.medium.com/" class="social-icon medium" target="_blank" rel="noopener"><i
+                            class="fab fa-medium"></i></a>
+                    <!-- <a href="https://x.com/GloryOdeyemi" class="social-icon twitter" target="_blank" rel="noopener"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://buymeacoffee.com/glowcodes" class="social-icon bmac" target="_blank"
+                        rel="noopener"><i class="fas fa-coffee"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h2>Hi, I’m Glory Odeyemi</h2>
-											<p>Data Engineer & Analyst</p>
-										</header>
-										<p>I specialize in designing scalable data pipelines and transforming complex data into strategic insights that drive business decisions through advanced analytics and compelling visualizations. With a background in computer science and artificial intelligence, I help organizations make data-driven decisions by leveraging tools like Python, SQL, Snowflake, Tableau, Excel, and Airflow.</p>
-										<!-- <p>Beyond tech, I’m a curious soul who loves learning new things and helping others grow. I enjoy quiet evenings with a good book, long walks when I need to reset, and the occasional deep dive into random documentaries. My faith is a big part of who I am, and I strive to reflect that in how I work and relate with people. I’m Nigerian, currently living in Canada, and still adjusting to winter (and Canadian snacks!).</p> -->
-										<p>I believe in the power of data to solve real-world problems and drive innovation. I combine engineering best practices with analytical thinking to build systems that bridge the gap between complex data and meaningful insights, making analytics accessible and actionable for businesses and individuals alike.</p>
-                    					<p>Through my work, I aim to contribute to projects that have a positive impact on society while continuously learning and adapting to the evolving data landscape.</p>
-										<p>Beyond tech, I'm passionate about continuous learning and helping others succeed. I am a calm person who enjoys reading books, watching movies, listening to gospel music, and playing games. My faith and values shape how I approach both work and relationships. I’m Nigerian, currently living in Windsor, ON, Canada.</p>
-										<ul class="actions">
-											<li><a href="#projects" class="button big">View My Work</a></li>
-											<!-- <li><a href="assets/resume.pdf" class="button icon solid fa-download">My Resume</a></li> -->
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/my-image.jpeg" alt="" />
-									</span>
-								</section>
+    <!-- ─── About ──────────────────────────────────────── -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center mb-3 reveal">About Me</h2>
+            <div class="about-layout">
+                <!-- Photo -->
+                <div class="about-photo-wrapper reveal">
+                    <img src="images/profile/profile.jpeg" alt="Glory Odeyemi"
+                        onerror="this.parentElement.innerHTML='<div class=\'about-photo-placeholder\'><i class=\'fas fa-user\'></i><span>Profile photo</span></div>'">
+                </div>
+                <!-- Text cards -->
+                <div class="about-cards">
+                    <div class="card reveal">
+                        <h3>Background</h3>
+                        <p style="text-align:justify;">I am a data professional with expertise in building robust data
+                            infrastructure and extracting meaningful insights from complex datasets. With a background
+                            in computer science and artificial intelligence, I help organizations make data-driven
+                            decisions by leveraging tools like Python, SQL, Snowflake, Tableau, and Airflow.</p>
+                        <p style="text-align:justify;">Beyond tech, I'm passionate about continuous learning and helping
+                            others succeed. I am a calm person who enjoys reading books, watching movies, listening to
+                            gospel music, and playing games. My faith and values shape how I approach both work and
+                            relationships.</p>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Approach &amp; Impact</h3>
+                        <p style="text-align:justify;">I believe in the power of data to solve real-world problems and
+                            drive innovation. I combine engineering best practices with analytical thinking to build
+                            systems that bridge the gap between complex data and meaningful insights, making analytics
+                            accessible and actionable for businesses and individuals alike.</p>
+                        <p style="text-align:justify;">Through my work, I aim to contribute to projects that have a
+                            positive impact on society while continuously learning and adapting to the evolving data
+                            landscape.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-							<!-- Section -->
-								<section id="interests">
-									<header class="major">
-										<h2>Areas of Interest</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon solid fa-database"></span>
-											<div class="content">
-												<h3>Data Engineering</h3>
-												<p>I enjoy building scalable data pipelines and integrating diverse data sources to support analytics and machine learning workflows. My experience includes ETL pipeline automation, data modeling, and warehousing using tools like Snowflake, Airflow, and Python.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-chart-bar"></span>
-											<div class="content">
-												<h3>Data Analysis</h3>
-												<p>I am passionate about uncovering insights through data. From cleaning and transforming datasets to building dashboards and reports, I use tools like Excel, Tableau, and SQL to help stakeholders make informed decisions backed by data.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-robot"></span>
-											<div class="content">
-												<h3>Machine Learning</h3>
-												<p>I explore machine learning solutions for classification, regression, and prediction tasks. I’ve worked with Scikit-learn, TensorFlow, and PyTorch to train and evaluate models that drive business impact.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-brain"></span>
-											<div class="content">
-												<h3>Natural Language Processing</h3>
-												<p>I have a deep interest in language models and text analysis. I have used NLP techniques for tasks like summarization, classification, and building both basic and semantic search engines. I use tools like Hugging Face Transformers, NLTK, and vector similarity techniques to develop models that understand text beyond keywords.</p>
-											</div>
-										</article>
-									</div>
-								</section>
+    <!-- ─── Interests ──────────────────────────────────── -->
+    <section id="interests" class="section">
+        <div class="container">
+            <h2 class="text-center mb-3 reveal">Areas of Interest</h2>
+            <div class="features">
+                <article class="feature-item reveal">
+                    <div style="text-align:center;margin-bottom:1rem;"><i class="fas fa-database"
+                            style="font-size:3rem;color:var(--accent);"></i></div>
+                    <div class="content">
+                        <h3>Data Engineering</h3>
+                        <p style="text-align:justify;">I enjoy building scalable data pipelines and integrating data
+                            sources to support analytics and machine learning workflows. My experience includes ETL
+                            automation, data modeling, and warehousing using tools like Python, SQL, Snowflake, and
+                            Airflow.</p>
+                    </div>
+                </article>
+                <article class="feature-item reveal">
+                    <div style="text-align:center;margin-bottom:1rem;"><i class="fas fa-chart-line"
+                            style="font-size:3rem;color:var(--accent);"></i></div>
+                    <div class="content">
+                        <h3>Data Analysis &amp; Visualization</h3>
+                        <p style="text-align:justify;">I am passionate about uncovering insights through data. From
+                            cleaning and transforming datasets to building dashboards and reports, I use tools like
+                            Excel, Tableau, and SQL to help stakeholders make informed decisions backed by data.</p>
+                    </div>
+                </article>
+                <article class="feature-item reveal">
+                    <div style="text-align:center;margin-bottom:1rem;"><i class="fas fa-brain"
+                            style="font-size:3rem;color:var(--accent);"></i></div>
+                    <div class="content">
+                        <h3>Machine Learning</h3>
+                        <p style="text-align:justify;">I explore machine learning solutions for classification,
+                            regression, and prediction tasks. I've worked with Scikit-learn, TensorFlow, and PyTorch to
+                            train and evaluate models that drive business impact.</p>
+                    </div>
+                </article>
+                <article class="feature-item reveal">
+                    <div style="text-align:center;margin-bottom:1rem;"><i class="fas fa-comments"
+                            style="font-size:3rem;color:var(--accent);"></i></div>
+                    <div class="content">
+                        <h3>Natural Language Processing</h3>
+                        <p style="text-align:justify;">I have a deep interest in language models and text analysis. I've
+                            used NLP techniques for summarization, classification, and semantic search using tools like
+                            Hugging Face Transformers, NLTK, and vector similarity techniques.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
 
-								<!-- Project filter buttons -->
-								<section id="projects">
-									<header class="major">
-									<h2>Recent Projects</h2>
-									<div class="filter-buttons">
-										<button class="button primary filter-button active" data-filter="all">All</button>
-										<button class="button filter-button" data-filter="data-engineering">Data Engineering</button>
-										<button class="button filter-button" data-filter="data-analysis">Data Analysis</button>
-										<button class="button filter-button" data-filter="ai-ml">AI/ML</button>
-									</div>
-									</header>
-								
-									<div class="posts">
+    <!-- ─── Skills ─────────────────────────────────────── -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="text-center mb-3 reveal">Technical Skills &amp; Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-item-individual reveal"><img src="images/logos/python.svg" alt="Python"
+                        class="skill-logo"
+                        onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'"><span
+                        class="skill-name">Python</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/mysql-original-wordmark.svg"
+                        alt="MySQL" class="skill-logo"
+                        onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'"><span
+                        class="skill-name">MySQL</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/postgresql-original.svg"
+                        alt="PostgreSQL" class="skill-logo"
+                        onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'"><span
+                        class="skill-name">PostgreSQL</span></div>
+                <div class="skill-item-individual reveal"><i
+                        class="devicon-java-plain colored skill-logo-icon"></i><span class="skill-name">Java</span>
+                </div>
+                <div class="skill-item-individual reveal"><img src="images/logos/tableau.svg" alt="Tableau"
+                        class="skill-logo"><span class="skill-name">Tableau</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/excel.svg" alt="Excel"
+                        class="skill-logo"><span class="skill-name">Excel</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/matplotlib-original.svg"
+                        alt="Matplotlib" class="skill-logo"
+                        onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg'"><span
+                        class="skill-name">Matplotlib</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/pandas-original.svg" alt="Pandas"
+                        class="skill-logo"
+                        onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg'"><span
+                        class="skill-name">Pandas</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/metabase-icon.svg" alt="Metabase"
+                        class="skill-logo"><span class="skill-name">Metabase</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/snowflake-icon.svg" alt="Snowflake"
+                        class="skill-logo"><span class="skill-name">Snowflake</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/Apache Airflow.svg" alt="Airflow"
+                        class="skill-logo"><span class="skill-name">Apache Airflow</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/microsoftsqlserver-original.svg"
+                        alt="SQL Server" class="skill-logo"
+                        onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg'"><span
+                        class="skill-name">SQL Server</span></div>
+                <div class="skill-item-individual reveal"><i
+                        class="devicon-docker-plain colored skill-logo-icon"></i><span class="skill-name">Docker</span>
+                </div>
+                <div class="skill-item-individual reveal"><i class="devicon-git-plain colored skill-logo-icon"></i><span
+                        class="skill-name">Git</span></div>
+                <div class="skill-item-individual reveal"><i class="devicon-github-original skill-logo-icon"></i><span
+                        class="skill-name">GitHub</span></div>
+                <div class="skill-item-individual reveal"><i
+                        class="devicon-tensorflow-original colored skill-logo-icon"></i><span
+                        class="skill-name">TensorFlow</span></div>
+                <div class="skill-item-individual reveal"><i
+                        class="devicon-pytorch-original colored skill-logo-icon"></i><span
+                        class="skill-name">PyTorch</span>
+                </div>
+                <div class="skill-item-individual reveal"><img src="images/logos/scikit-learn.svg" alt="Scikit-learn"
+                        class="skill-logo"
+                        onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg'"><span
+                        class="skill-name">Scikit-learn</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/huggingface-2.svg" alt="Hugging Face"
+                        class="skill-logo"><span class="skill-name">Hugging Face</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/asana-red.svg" alt="Asana"
+                        class="skill-logo"><span class="skill-name">Asana</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/clickup.svg" alt="ClickUp"
+                        class="skill-logo"><span class="skill-name">ClickUp</span></div>
+                <div class="skill-item-individual reveal"><img src="images/logos/drawio-svgrepo-com.svg" alt="Draw.io"
+                        class="skill-logo"><span class="skill-name">Draw.io</span></div>
+            </div>
+        </div>
+    </section>
 
-									<article class="project-card data-engineering">
-										<a href="#" class="image"><img src="images/projects/sql-data-warehouse/medallion.PNG" alt="" /></a>
-										<h3>SQL Data Warehouse</h3>
-										<!-- <p class="description">A modern data warehouse simulating an enterprise data pipeline using SQL Server, Azure Data Studio, and Medallion Architecture to transform ERP and CRM data into a business-ready star schema for analytics and reporting.</p> -->
-										<p class="description">
-											<!-- A modern SQL data warehouse using Medallion Architecture (Bronze, Silver, Gold) to transform and integrate over 60K+ raw ERP and CRM records into a clean, analytics-ready star schema, achieving 99.9% data quality through robust T-SQL transformations, standardization, and integrity checks. -->
-											Built enterprise-grade SQL data warehouse using Medallion Architecture to process and transform 60K+ raw ERP/CRM records through advanced T-SQL ETL pipelines and comprehensive validation frameworks, achieving 99.9% data quality improvement while delivering performance-optimized star schema that reduced complex analytical query runtime from hours to minutes and enabling real-time business intelligence for data-driven decision-making.
-										</p>
-										<ul class="skill-logos icons-grid project-skills">
-											<li><i class="devicon-azuresqldatabase-plain colored"></i> T-SQL</li>
-											<li><i class="devicon-microsoftsqlserver-plain-wordmark colored"></i> SQL Server</li>
-											<li><img src="images/logos/Git-Icon-1788C.svg" alt="git" /> Git</li>
-											<li><img src="images/logos/github-mark.svg" alt="git" /> GitHub</li>
-											<li><img src="images/logos/drawio-svgrepo-com.svg" alt="draw.io" /> Draw.io</li>
-										</ul>
-										<ul class="actions">
-										<!-- <li><a href="#" class="button">More</a></li> -->
-											<li><a href="https://github.com/gloryodeyemi/SQL-Data-Warehouse" target="_blank" class="button icon brands fa-github">View Project</a></li>
-										</ul>
-									</article>
-										
-									<article class="project-card data-engineering data-analysis">
-										<a href="#" class="image"><img src="images/projects/beauty-products/beauty-products13.png" alt="" /></a>
-										<h3>Beauty Product Purchase Pipeline</h3>
-										<!-- <p class="description">An automated end-to-end pipeline to extract, transform, and load beauty purchase data for analysis and visualization using Python, Snowflake, Airflow, and Tableau.</p> -->
-										<p class="description">
-											<!-- An automated end-to-end pipeline to extract, transform, and load beauty purchase data using Python, Snowflake, and Airflow, enabling real-time trend analysis and interactive visualizations in Tableau to uncover spending habits and product preferences. -->
-											Architected automated end-to-end data pipeline using Python, Docker-containerized Airflow, and Snowflake to extract, transform, and load beauty purchase data from Google Sheets through weekly orchestrated ETL processes, implementing snowflake schema with 7 dimensions and optimized stored procedures that enabled real-time Tableau analytics for spending trend analysis, budget optimization, and data-driven purchase decision-making.
-										</p>
-										<ul class="skill-logos icons-grid project-skills">
-											<li><img src="images/logos/python.svg" alt="Python" /> Python</li>
-										<!-- <li><i class="devicon-python-plain colored"></i> Python</li> -->
-											<li><i class="devicon-azuresqldatabase-plain colored"></i> SQL</li>
-											<li><img src="images/logos/snowflake-icon.svg" alt="Snowflake" /> Snowflake</li>
-											<li><i class="devicon-apacheairflow-plain colored"></i> Airflow</li>
-											<li><img src="images/logos/tableau.svg" alt="tableau" /> Tableau</li>
-											<li><i class="devicon-docker-plain colored"></i> Docker</li>
-										</ul>
-										<ul class="actions">
-										<!-- <li><a href="#" class="button">More</a></li> -->
-											<li><a href="https://github.com/gloryodeyemi/Beauty_Purchase_Analysis" target="_blank" class="button icon brands fa-github">View Project</a></li>
-											<li><a href="https://public.tableau.com/views/BeautyProductsPurchaseDashboard/SummaryDashboard" target="_blank" class="button icon solid fa-chart-bar">Dashboard</a></li>
-										</ul>
-									</article>
-								
-									<article class="project-card data-analysis">
-										<a href="#" class="image"><img src="images/projects/coffee-sales/coffee-sales5.png" alt="" /></a>
-										<h3>Coffee Sales Excel Dashboard</h3>
-										<!-- <p class="description">An interactive Excel dashboard designed to analyze and visualize coffee sales across multiple dimensions - customers, countries, product types, and time periods.</p> -->
-										<p class="description">
-											<!-- An interactive Excel dashboard designed to empower business decisions by turning raw coffee sales data into clear, actionable insights using advanced formulas, pivot tables, and clean visual storytelling. -->
-											Developed comprehensive Excel analytics dashboard leveraging advanced formulas, pivot tables, and interactive filtering to analyze coffee sales across customers, regions, and time periods, uncovering critical business insights including loyalty program inefficiencies and regional market opportunities that informed strategic recommendations for revenue optimization.
-										</p>
-										<ul class="skill-logos icons-grid project-skills">
-											<li><img src="images/logos/excel.svg" alt="excel" /> Excel</li>
-											<!-- <li><img src="images/logos/excel.svg" alt="excel" /> XLOOKUP</li>
-											<li><img src="images/logos/excel.svg" alt="excel" /> Pivot Tables</li> -->
-											<li><img src="images/logos/data-report.svg" alt="data-viz" /> Dashboard Design</li>
-											<!-- <li><i class="fas fa-chart-bar"></i> Data Visualization</li> -->
-										</ul>
-										<ul class="actions">
-										<!-- <li><a href="#" class="button">More</a></li> -->
-											<li><a href="https://github.com/gloryodeyemi/Coffee-Sales-Analysis" target="_blank" class="button icon brands fa-github">View Project</a></li>
-										</ul>
-									</article>
-								
-									<article class="project-card data-analysis">
-										<a href="#" class="image"><img src="images/projects/sales-customer/sales_and_customer.PNG" alt="" /></a>
-										<h3>Sales & Customer Dashboard</h3>
-										<p class="description">
-											<!-- Interactive Sales Performance and Customer Analysis Tableau dashboards designed to help business stakeholders uncover sales trends, understand customer behaviour, and make data-driven decisions. -->
-											Designed and implemented comprehensive Tableau analytics platform featuring dual interactive dashboards for sales performance tracking and customer behavior analysis, enabling stakeholders to identify revenue trends, optimize product strategies, and enhance customer retention through dynamic KPI monitoring, year-over-year comparisons, and actionable insights derived from multi-dimensional data exploration across regions, products, and time periods.
-										</p>
-										<!-- <p class="description">Dual Tableau dashboards for sales performance and customer analysis, enabling stakeholders to uncover sales trends, segment and understand customer behaviour, and make data-driven decisions.</p> -->
-										<ul class="skill-logos icons-grid project-skills">
-											<li><img src="images/logos/tableau.svg" alt="tableau" /> Tableau</li>
-											<li><img src="images/logos/data-report.svg" alt="data-viz" /> Dashboard Design</li>
-										</ul>
-										<ul class="actions">
-											<li><a href="https://github.com/gloryodeyemi/Sales-Customer-Tableau-Dashboard" target="_blank" class="button icon brands fa-github">View Project</a></li>
-											<li><a href="https://public.tableau.com/views/SalesCustomerAnalysisDashboard_17447818756340/SalesDashboard" target="_blank" class="button icon solid fa-chart-bar">Dashboard</a></li>
-										<!-- <li><a href="#" class="button">More</a></li> -->
-										</ul>
-									</article>
-								
-									<!-- <article class="project-card data-engineering">
-										<a href="#" class="image"><img src="images/projects/weather-sales/weather_and_sales.PNG" alt="" /></a>
-										<h3>Weather and Sales Trend Pipeline</h3> -->
-										<!-- <p class="description">An end-to-end data pipeline that integrates weather data with sales trends using Snowflake for data storage and processing.</p> -->
-										<!-- <p class="description"> -->
-											<!-- A Snowflake-powered data pipeline with Streamlit visualization to analyze the relationship between weather patterns and sales trends in Hamburg, Germany. -->
-											<!-- Developed an end-to-end Snowflake-powered data pipeline with ingestion, transformation, and delivery layers, and built a Streamlit dashboard to visualize the relationship between weather patterns and sales trends in Hamburg, Germany. -->
-										<!-- </p> -->
-										<!-- <ul class="skill-logos icons-grid project-skills"> -->
-											<!-- <li><i class="devicon-python-plain colored"></i> Python</li> -->
-											<!-- <li><img src="images/logos/python.svg" alt="Python" /> Python</li>
-											<li><img src="images/logos/snowflake-icon.svg" alt="Snowflake" /> Snowflake</li>
-											<li><img src="images/logos/Streamlit.svg" alt="Streamlit" /> Streamlit</li>
-										</ul>
-										<ul class="actions"> -->
-											<!-- <li><a href="#" class="button">More</a></li> -->
-											<!-- <li><a href="https://github.com/gloryodeyemi/Weather_and_Sales_Trend_Pipeline/tree/main" target="_blank" class="button icon brands fa-github">View Project</a></li>
-										</ul>
-									</article> -->
-								
-									<article class="project-card ai-ml">
-										<a href="#" class="image"><img src="images/projects/product-review/product_review.PNG" alt="" /></a>
-										<h3>Sentiment Classification on Product Reviews</h3>
-										<p class="description">
-											<!-- Developed and compared five NLP models - FastText, BERT, DistilBERT, RoBERTa, and XLNet - to classify product reviews as positive or negative, using pre-trained architectures and fine-tuning techniques. -->
-											Built and evaluated five NLP models (FastText, BERT, DistilBERT, RoBERTa, XLNet) for sentiment classification of product reviews, leveraging pre-trained transformer architectures and fine-tuning to achieve >90% accuracy. Designed a full training and evaluation pipeline with preprocessing, tokenization, and performance benchmarking across models, enabling businesses to automate customer feedback analysis, improve product insights, and enhance customer experience strategies.
-										</p>
-										<ul class="skill-logos icons-grid project-skills">
-											<!-- <li><i class="devicon-python-plain colored"></i> Python</li> -->
-											<li><img src="images/logos/python.svg" alt="Python" /> Python</li>
-											<li><img src="images/logos/huggingface-2.svg" alt="huggingface" /> Transformers</li>
-											<li><img src="images/logos/flask-original.svg" alt="scikit-learn" /> Flask</li>
-											<li><img src="images/logos/scikit-learn.svg" alt="scikit-learn" /> Scikit-learn</li>
-											<li><i class="devicon-pytorch-plain colored"></i> PyTorch</li>
-										</ul>
-										<ul class="actions">
-										<!-- <li><a href="#" class="button">More</a></li> -->
-										<li><a href="https://github.com/gloryodeyemi/Product_Review_Class_Label_Prediction/tree/main" target="_blank" class="button icon brands fa-github">View Project</a></li>
-										</ul>
-									</article>
-								
-									<article class="project-card ai-ml">
-										<a href="#" class="image"><img src="images/projects/bank-term-prediction/bank_term.PNG" alt="" /></a>
-										<h3>Bank Institution Term Deposit Predictive Model</h3>
-										<!-- <p class="description">Developed a predictive model to forecast customer term deposit subscription based on marketing campaign data.</p> -->
-										<p class="description">
-											<!-- Developed a predictive model using XGBoost and Stratified K-Fold to identify customers likely to subscribe to bank term deposits, addressing class imbalance and optimizing performance. -->
-											Built a predictive machine learning model using XGBoost and Stratified K-Fold Cross-Validation to identify customers likely to subscribe to bank term deposits. Addressed class imbalance with SMOTE, optimized feature selection with PCA, and compared multiple models (Logistic Regression, MLP, XGBoost) to maximize predictive performance. Achieved 87% accuracy and 94% AUC, enabling the bank to improve targeted marketing campaigns, reduce customer acquisition costs, and increase subscription conversion rates.
-										</p>
-										<ul class="skill-logos icons-grid project-skills">
-											<!-- <li><i class="devicon-python-plain colored"></i> Python</li> -->
-											<li><img src="images/logos/python.svg" alt="Python" /> Python</li>
-											<li><img src="images/logos/pandas-original.svg" alt="Python" /> Pandas</li>
-											<li><img src="images/logos/python.svg" alt="Python" /> XGBoost</li>
-											<li><img src="images/logos/scikit-learn.svg" alt="scikit-learn" /> Scikit-learn</li>
-											<li><img src="images/logos/matplotlib-original.svg" alt="eda" /> Matplotlib</li>
-										</ul>
-										<ul class="actions">
-										<!-- <li><a href="#" class="button">More</a></li> -->
-										<li><a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/tree/master/week6" target="_blank" class="button icon brands fa-github">View Project</a></li>
-										<li><a href="https://medium.com/data-science/bank-institution-term-deposit-predictive-model-83afe1d2b08c" target="_blank" class="button icon brands fa-medium">Medium Article</a></li>
-										</ul>
-									</article>
+    <!-- ─── Projects ───────────────────────────────────── -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="text-center mb-1 reveal">Featured Projects</h2>
+            <p class="text-center mb-3 reveal" style="max-width:600px;margin-left:auto;margin-right:auto;">A selection
+                of data engineering pipelines, analytics dashboards, and ML solutions I've built end-to-end.</p>
 
-									<!-- <article class="project-card ai-ml">
-										<a href="#" class="image"><img src="images/projects/basic-search/search-engine.jpg" alt="" /></a>
-										<h3>Basic Search Engine</h3> -->
-										<!-- <p class="description">Developed a predictive model to forecast customer term deposit subscription based on marketing campaign data.</p> -->
-										<!-- <p class="description">Basic search engine for Computer Science related academic papers.</p>
-										<ul class="skill-logos icons-grid project-skills"> -->
-											<!-- <li><i class="devicon-python-plain colored"></i> Python</li> -->
-											<!-- <li><img src="images/logos/python.svg" alt="Python" /> Python</li>
-											<li><i class="devicon-flask-original colored"></i> Flask</li> -->
-											<!-- <li><img src="images/logos/scikit-learn.svg" alt="scikit-learn" /> Scikit-learn</li> -->
-											<!-- <li><img src="images/logos/eda.svg" alt="eda" /> Exploratory Data Analysis</li> -->
-										<!-- </ul>
-										<ul class="actions"> -->
-										<!-- <li><a href="#" class="button">More</a></li> -->
-										<!-- <li><a href="https://github.com/gloryodeyemi/SearchEngine.git" target="_blank" class="button icon brands fa-github">View Project</a></li>
-										<li><a href="https://github.com/gloryodeyemi/SearchEngine/blob/main/media/search-engine-demo.gif" target="_blank" class="button icon solid fa-play">Search Engine Demo</a></li>
-										</ul>
-									</article> -->
-									</div>
-								</section>
-  
+            <!-- Filter buttons -->
+            <div class="project-filters reveal">
+                <button class="project-filter active" data-filter="all">All Projects</button>
+                <button class="project-filter" data-filter="data-engineering">Data Engineering</button>
+                <button class="project-filter" data-filter="data-analysis">Data Analysis</button>
+                <button class="project-filter" data-filter="ai-ml">AI / ML</button>
+            </div>
 
-						</div>
-					</div>
+            <!-- Grid -->
+            <div id="projectsGrid">
 
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+                <!-- ── Project 1: SQL Data Warehouse ── -->
+                <div class="project-card reveal" data-category="data-engineering">
+                    <div class="project-thumbnail">
+                        <span class="project-category-badge">Data Engineering</span>
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <img src="images/projects/sql-data-warehouse/medallion.PNG" alt="Medallion Architecture"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=SQL+Data+Warehouse'">
+                                <img src="images/projects/sql-data-warehouse/data_architecture.png"
+                                    alt="Architecture Diagram" loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Architecture'">
+                                <img src="images/projects/sql-data-warehouse/data_model.png" alt="Data Model"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Data+Model'">
+                                <img src="images/projects/sql-data-warehouse/data_flow.png" alt="Data Flow"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Data+Flow'">
+                                <img src="images/projects/sql-data-warehouse/data_integration.png"
+                                    alt="Data Integration" loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Integration'">
+                            </div>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                                <span class="dot" data-slide="3"></span>
+                                <span class="dot" data-slide="4"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Modern SQL Data Warehouse</h3>
+                        <p class="project-desc">Built enterprise-grade SQL data warehouse using Medallion Architecture
+                            to process and transform 60K+ raw ERP/CRM records
+                            through advanced T-SQL ETL pipelines and comprehensive validation frameworks, achieving
+                            99.9% data quality improvement
+                            while delivering performance-optimized star schema that reduced complex analytical query
+                            runtime from hours to minutes
+                            and enabling real-time business intelligence for data-driven decision-making.</p>
+                        <div class="project-metrics">
+                            <div class="metric"><span class="metric-value">6</span><span class="metric-label">Data
+                                    Sources</span></div>
+                            <div class="metric"><span class="metric-value">60K+</span><span
+                                    class="metric-label">Records</span></div>
+                            <div class="metric"><span class="metric-value">99.9%</span><span class="metric-label">Data
+                                    Quality</span></div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag"><img src="images/logos/10130-icon-service-SQL-Database.svg"
+                                    onerror="this.style.display='none'">T-SQL</span>
+                            <span class="project-tag"><img src="images/logos/microsoftsqlserver-original.svg"
+                                    onerror="this.style.display='none'">SQL Server</span>
+                            <span class="project-tag"><img src="images/logos/Git-Icon-1788C.svg"
+                                    onerror="this.style.display='none'">Git</span>
+                            <span class="project-tag"><img src="images/logos/drawio-svgrepo-com.svg"
+                                    onerror="this.style.display='none'">Draw.io</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/gloryodeyemi/SQL-Data-Warehouse" class="btn btn-primary"
+                                target="_blank"><i class="fab fa-github"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
 
-							<!-- Search -->
-								<!-- <section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section> -->
+                <!-- ── Project 2: Coffee Sales ── -->
+                <div class="project-card reveal" data-category="data-analysis">
+                    <div class="project-thumbnail">
+                        <span class="project-category-badge">Data Analysis</span>
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <img src="images/projects/coffee-sales/coffee-sales5.png" alt="Coffee Sales Overview"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Coffee+Sales'">
+                                <img src="images/projects/coffee-sales/coffee-sales-dashboard.png"
+                                    alt="Coffee Sales Dashboard" loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Dashboard'">
+                            </div>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Coffee Sales Excel Dashboard</h3>
+                        <p class="project-desc">Developed a comprehensive Excel analytics dashboard with advanced
+                            formulas, pivot tables, and interactive filtering
+                            to analyze coffee sales across customers, regions, and time periods, uncovering critical
+                            business insights including
+                            loyalty program inefficiencies and regional market opportunities that informed strategic
+                            recommendations for revenue
+                            optimization.</p>
+                        <div class="project-metrics">
+                            <div class="metric"><span class="metric-value">5</span><span class="metric-label">Key
+                                    Insights</span></div>
+                            <div class="metric"><span class="metric-value">100%</span><span
+                                    class="metric-label">Accuracy</span></div>
+                            <div class="metric"><span class="metric-value">3</span><span
+                                    class="metric-label">Dimensions</span></div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag"><img src="images/logos/excel.svg"
+                                    onerror="this.style.display='none'">Excel</span>
+                            <!-- <span class="project-tag">XLOOKUP</span> -->
+                            <span class="project-tag">Dashboard Design</span>
+                            <!-- <span class="project-tag">Pivot Tables</span> -->
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/gloryodeyemi/Coffee-Sales-Analysis" class="btn btn-primary"
+                                target="_blank"><i class="fab fa-github"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
 
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="#banner">About</a></li>
-										<li><a href="#interests">Areas of Interest</a></li>
-										<li><a href="#projects">Recent Projects</a></li>
-										<li><a href="#contact">Contact</a></li>
-									</ul>
-								</nav>
+                <!-- ── Project 3: Beauty Pipeline ── -->
+                <div class="project-card reveal" data-category="data-engineering data-analysis">
+                    <div class="project-thumbnail">
+                        <span class="project-category-badge">DE + DA</span>
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <img src="images/projects/beauty-pipeline/beauty-products13.png" alt="Beauty Products"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Beauty+Pipeline'">
+                                <img src="images/projects/beauty-pipeline/summary-dashboard.png" alt="Summary Dashboard"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Dashboard'">
+                                <img src="images/projects/beauty-pipeline/RPList.png" alt="Recent Purchases"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Purchases'">
+                                <img src="images/projects/beauty-pipeline/Beauty-data-model.png" alt="Data Model"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Data+Model'">
+                                <img src="images/projects/beauty-pipeline/airflow_automation.png" alt="Airflow"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Airflow'">
+                                <img src="images/projects/beauty-pipeline/product-list.png" alt="Product List"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Products'">
+                                <img src="images/projects/beauty-pipeline/BD-Lists.png" alt="Brands List" loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Brands'">
+                            </div>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                                <span class="dot" data-slide="3"></span>
+                                <span class="dot" data-slide="4"></span>
+                                <span class="dot" data-slide="5"></span>
+                                <span class="dot" data-slide="6"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Beauty Product Purchase Pipeline</h3>
+                        <p class="project-desc">Architected an automated end-to-end data pipeline using Python,
+                            Docker-containerized Airflow, and Snowflake to extract,
+                            transform, and load beauty purchase data from Google Sheets. Weekly ETL orchestration loads
+                            to a
+                            snowflake schema with 7+ dimensions and optimized stored procedures that enabled real-time
+                            Tableau analytics for
+                            spending trend analysis, budget optimization, and data-driven purchase decision-making.</p>
+                        <div class="project-metrics">
+                            <div class="metric"><span class="metric-value">7</span><span
+                                    class="metric-label">Dimensions</span></div>
+                            <div class="metric"><span class="metric-value">Weekly</span><span class="metric-label">Auto
+                                    Refresh</span></div>
+                            <div class="metric"><span class="metric-value">25%+</span><span class="metric-label">Budget
+                                    Save</span></div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag"><img src="images/logos/python.svg"
+                                    onerror="this.style.display='none'">Python</span>
+                            <span class="project-tag"><img src="images/logos/snowflake-icon.svg"
+                                    onerror="this.style.display='none'">Snowflake</span>
+                            <span class="project-tag"><img src="images/logos/Apache Airflow.svg"
+                                    onerror="this.style.display='none'">Airflow</span>
+                            <span class="project-tag"><img src="images/logos/tableau.svg"
+                                    onerror="this.style.display='none'">Tableau</span>
+                            <span class="project-tag"><img src="images/logos/docker-plain.svg"
+                                    onerror="this.style.display='none'">Docker</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/gloryodeyemi/Beauty_Purchase_Analysis" class="btn btn-secondary"
+                                target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://public.tableau.com/app/profile/glowcodes/viz/BeautyProductsPurchaseDashboard/SummaryDashboard"
+                                class="btn btn-primary" target="_blank"><i class="fas fa-chart-bar"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
 
-								<section id="skills">
-									<header class="major">
-									  <h2>Skills & Technologies</h2>
-									</header>
-									<ul class="skill-logos icons-grid">
-									  	<!-- <li><i class="devicon-python-plain colored"></i> Python</li> -->
-										<li><img src="images/logos/python.svg" alt="Python" /> Python</li>
-									  	<li><i class="devicon-postgresql-plain colored"></i> PostgreSQL</li>
-										<li><i class="devicon-mysql-plain colored"></i> MySQL</li>
-										<li><img src="images/logos/snowflake-icon.svg" alt="Snowflake" /> Snowflake</li>
-										<li><i class="devicon-apacheairflow-plain colored"></i> Airflow</li>
-										<li><img src="images/logos/excel.svg" alt="excel" /> Excel</li>
-										<li><img src="images/logos/tableau.svg" alt="tableau" /> Tableau</li>
-										<li><img src="images/logos/metabase-icon.svg" alt="metabase" /> Metabase</li>
-										<!-- <li><i class="fas fa-project-diagram"></i> ETL Pipelines</li>
-										<li><i class="fas fa-network-wired"></i> Data Modeling</li> -->
-										<li><img src="images/logos/scikit-learn.svg" alt="scikit-learn" /> Scikit-learn</li>
-									  	<!-- <li><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</li> -->
-										<li><i class="devicon-pytorch-plain colored"></i> PyTorch</li>
-										<li><i class="devicon-tensorflow-original colored"></i> TensorFlow</li>
-										<li><i class="devicon-git-plain colored"></i> Git</li>
-										<li><img src="images/logos/huggingface-2.svg" alt="huggingface" /> Hugging Face</li>
-										<li><i class="devicon-github-plain colored"></i> GitHub</li>
-										<li><img src="images/logos/asana-red.svg" alt="asana" /> Asana</li>
-										<li><img src="images/logos/clickup.svg" alt="clickup" /> ClickUp</li>
+                <!-- ── Project 4: Sales & Customer Tableau ── -->
+                <div class="project-card reveal" data-category="data-analysis">
+                    <div class="project-thumbnail">
+                        <span class="project-category-badge">Data Analysis</span>
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <img src="images/projects/sales-customer/sales_and_customer.PNG" alt="Sales Overview"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Sales+%26+Customer'">
+                                <img src="images/projects/sales-customer/sales-dashboard.png" alt="Sales Dashboard"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Sales+Dashboard'">
+                                <img src="images/projects/sales-customer/customer-dashboard.png"
+                                    alt="Customer Dashboard" loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Customer+Dashboard'">
+                            </div>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sales &amp; Customer Tableau Dashboard</h3>
+                        <p class="project-desc">Designed dual interactive Tableau dashboards for sales performance and
+                            customer behavior analysis. Enables stakeholders to identify revenue trends, optimize
+                            product strategies, and enhance retention via dynamic KPI monitoring and year-over-year
+                            comparisons.</p>
+                        <div class="project-metrics">
+                            <div class="metric"><span class="metric-value">2</span><span
+                                    class="metric-label">Dashboards</span></div>
+                            <div class="metric"><span class="metric-value">10+</span><span class="metric-label">KPIs
+                                    Tracked</span></div>
+                            <div class="metric"><span class="metric-value">Y-o-Y</span><span class="metric-label">Trend
+                                    Analysis</span></div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag"><img src="images/logos/tableau.svg"
+                                    onerror="this.style.display='none'">Tableau</span>
+                            <span class="project-tag">Dashboard Design</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/gloryodeyemi/Sales-Customer-Tableau-Dashboard"
+                                class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://public.tableau.com/app/profile/glowcodes/viz/SalesCustomerAnalysisDashboard_17447818756340/SalesDashboard"
+                                class="btn btn-primary" target="_blank"><i class="fas fa-chart-bar"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
 
-									</ul>
-									<style>
-									  ul.icons-grid {
-										display: flex;
-										flex-wrap: wrap;
-										list-style: none;
-										padding: 0;
-										margin: 0;
-										gap: 1rem;
-									  }
-									  ul.icons-grid li {
-										display: flex;
-										align-items: center;
-										gap: 0.5rem;
-										font-size: 0.95rem;
-										background: #f0f0f0;
-										padding: 8px 12px;
-										border-radius: 5px;
-									  }
-									  ul.icons-grid i {
-										font-size: 1.1em;
-										color: var(--accent);
-									  }
-									</style>
-								  </section>
+                <!-- ── Project 5: Sentiment Classification ── -->
+                <div class="project-card reveal" data-category="ai-ml">
+                    <div class="project-thumbnail">
+                        <span class="project-category-badge">AI / ML</span>
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <img src="images/projects/product-review/product_review.PNG" alt="Product Review"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Sentiment+Analysis'">
+                                <img src="images/projects/product-review/class_compare.png" alt="Model Comparison"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Model+Comparison'">
+                            </div>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sentiment Classification on Product Reviews</h3>
+                        <p class="project-desc">Built and benchmarked five NLP models (FastText, BERT, DistilBERT,
+                            RoBERTa, XLNet) for sentiment classification of product reviews. Designed a full training
+                            pipeline with
+                            preprocessing, tokenization, and performance evaluation, achieving &gt;90% accuracy on
+                            3,500+ reviews, enabling
+                            businesses to automate customer feedback analysis, improve product insights, and enhance
+                            customer experience strategies.</p>
+                        <div class="project-metrics">
+                            <div class="metric"><span class="metric-value">&gt;90%</span><span
+                                    class="metric-label">Accuracy</span></div>
+                            <div class="metric"><span class="metric-value">3.5K+</span><span
+                                    class="metric-label">Reviews</span></div>
+                            <div class="metric"><span class="metric-value">5</span><span
+                                    class="metric-label">Models</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag"><img src="images/logos/python.svg"
+                                    onerror="this.style.display='none'">Python</span>
+                            <span class="project-tag"><img src="images/logos/pytorch-original.svg"
+                                    onerror="this.style.display='none'">PyTorch</span>
+                            <span class="project-tag"><img src="images/logos/huggingface-2.svg"
+                                    onerror="this.style.display='none'">Transformers</span>
+                            <span class="project-tag"><img src="images/logos/flask-original.svg"
+                                    onerror="this.style.display='none'">Flask</span>
+                            <span class="project-tag"><img src="images/logos/scikit-learn.svg"
+                                    onerror="this.style.display='none'">Scikit-learn</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/gloryodeyemi/Product_Review_Class_Label_Prediction"
+                                class="btn btn-primary" target="_blank"><i class="fab fa-github"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- ── Project 6: Bank Term Deposit ── -->
+                <div class="project-card reveal" data-category="ai-ml">
+                    <div class="project-thumbnail">
+                        <span class="project-category-badge">AI / ML</span>
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <img src="images/projects/bank-term/bank_term.PNG" alt="Bank Term Deposit"
+                                    loading="lazy"
+                                    onerror="this.src='https://placehold.co/600x340/252036/D0ABFE?text=Predictive+Model'">
+                            </div>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bank Term Deposit Predictive Model</h3>
+                        <p class="project-desc">Built a predictive machine learning model using XGBoost and Stratified
+                            K-Fold Cross-Validation to identify customers
+                            likely to subscribe to bank term deposits. Addressed class imbalance with SMOTE, optimized
+                            feature selection with PCA,
+                            and compared multiple models (Logistic Regression, MLP, XGBoost) to maximize predictive
+                            performance. Achieved 87%
+                            accuracy and 94% AUC, enabling the bank to improve targeted marketing campaigns.</p>
+                        <div class="project-metrics">
+                            <div class="metric"><span class="metric-value">87%</span><span
+                                    class="metric-label">Accuracy</span></div>
+                            <div class="metric"><span class="metric-value">45K+</span><span
+                                    class="metric-label">Records</span></div>
+                            <div class="metric"><span class="metric-value">94%</span><span
+                                    class="metric-label">AUC</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag"><img src="images/logos/python.svg"
+                                    onerror="this.style.display='none'">Python</span>
+                            <span class="project-tag">XGBoost</span>
+                            <span class="project-tag"><img src="images/logos/scikit-learn.svg"
+                                    onerror="this.style.display='none'">Scikit-learn</span>
+                            <span class="project-tag"><img src="images/logos/pandas-original.svg"
+                                    onerror="this.style.display='none'">Pandas</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/gloryodeyemi/10AcademyWeeklyChallenges/blob/master/week6/README.md"
+                                class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://medium.com/data-science/bank-institution-term-deposit-predictive-model-83afe1d2b08c"
+                                class="btn btn-primary" target="_blank"><i class="fab fa-medium"></i> Article</a>
+                        </div>
+                    </div>
+                </div>
 
-							<!-- Section -->
-								<section id="contact">
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Interested in working together or have questions about my work? I'd love to connect.</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:gloryodeyemi1@gmail.com" target="_blank">gloryodeyemi1@gmail.com</a></li>
-										<!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
-										<li class="icon brands fa-linkedin">
-											<a href="https://www.linkedin.com/in/glory-odeyemi/" target="_blank">LinkedIn</a>
-										</li>
-										<li class="icon brands fa-github">
-											<a href="https://github.com/gloryodeyemi" target="_blank">GitHub</a>
-										</li>
-										<li class="icon brands fa-medium-m">
-											<a href="https://glowcodes.medium.com/" target="_blank">Medium</a>
-										</li>
-										<li class="icon brands fa-twitter">
-											<a href="https://twitter.com/GloryOdeyemi" target="_blank">Twitter</a>
-										</li>
-										<li class="icon brands fa-instagram">
-											<a href="https://www.instagram.com/glow_inspired/" target="_blank">Instagram</a>
-										</li>
-										<li class="icon solid fa-home">Windsor, ON, Canada</li>
-									</ul>
-								</section>
-								  
+            </div><!-- /#projectsGrid -->
+        </div>
+    </section>
 
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Glowcodes. All rights reserved. <br> 
-										Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
+    <!-- ─── Certificates ────────────────────────────────── -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="text-center mb-3 reveal">Certificates &amp; Training</h2>
+            <div class="grid grid-3">
 
-						</div>
-					</div>
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="certificate-front">
+                                <img src="images/logos/datacamp-svgrepo-com.svg" alt="DataCamp"
+                                    class="skill-logo certificate-icon" />
+                                <h3>AWS Cloud Practitioner (CLF-C02)</h3>
+                                <p class="certificate-issuer">DataCamp</p>
+                                <p class="certificate-date">Ongoing</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="certificate-back">
+                                <h3>AWS Cloud Practitioner</h3>
+                                <!-- <p>Validates expertise in AWS data engineering solutions, including data pipelines, ETL
+                                    processes, and data lakes.</p> -->
+                                <p>Validates expertise in AWS solutions.</p>
+                                <div class="certificate-skills"><span class="tag">AWS</span></div>
+                                <button class="btn btn-primary btn-sm certificate-view-btn"
+                                    data-cert-title="AWS Cloud Practitioner" data-cert-url="#">View Certificate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-			</div>
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="certificate-front">
+                                <img src="images/logos/datacamp-svgrepo-com.svg" alt="DataCamp"
+                                    class="skill-logo certificate-icon" />
+                                <h3>Data Engineer in Python</h3>
+                                <p class="certificate-issuer">DataCamp</p>
+                                <p class="certificate-date">Ongoing</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="certificate-back">
+                                <h3>Python Data Engineer</h3>
+                                <p>Covers data pipeline engineering, ETL automation, and modern data workflows in
+                                    Python.</p>
+                                <div class="certificate-skills"><span class="tag">Python</span><span
+                                        class="tag">Airflow</span></div>
+                                <button class="btn btn-primary btn-sm certificate-view-btn"
+                                    data-cert-title="Data Engineer in Python" data-cert-url="#">View
+                                    Certificate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/filter.js"></script>
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="certificate-front">
+                                <img src="images/logos/mechanic-tools-svgrepo-com.svg" alt="Pipeline"
+                                    class="skill-logo certificate-icon" />
+                                <h3>Foundations of Data Pipelines</h3>
+                                <p class="certificate-issuer">Analyst Builder</p>
+                                <p class="certificate-date">Apr 2025</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="certificate-back">
+                                <h3>Foundations of Data Pipelines</h3>
+                                <p>Covers data pipeline fundamentals, orchestration, and cloud integration using modern
+                                    tooling.</p>
+                                <div class="certificate-skills"><span class="tag">Airflow</span><span class="tag">AWS
+                                        Glue</span></div>
+                                <button class="btn btn-primary btn-sm certificate-view-btn"
+                                    data-cert-title="Foundations of Data Pipelines"
+                                    data-cert-url="https://www.analystbuilder.com/achievements/verify/IAGI95OQTI?r=pgVdz8ZypKn0XkJoFS4QevVkQ">View
+                                    Certificate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-	</body>
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="certificate-front">
+                                <i class="fas fa-certificate certificate-icon"></i>
+                                <h3>Data &amp; SQL Coding</h3>
+                                <p class="certificate-issuer">Code First Girls</p>
+                                <p class="certificate-date">Apr 2025</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="certificate-back">
+                                <h3>Data &amp; SQL Coding</h3>
+                                <p>Validates foundational knowledge of SQL, data querying, and relational database
+                                    design.</p>
+                                <div class="certificate-skills"><span class="tag">SQL</span></div>
+                                <button class="btn btn-primary btn-sm certificate-view-btn"
+                                    data-cert-title="Data & SQL Coding"
+                                    data-cert-url="https://drive.google.com/file/d/1-Bm0-R_1EQLbRgyIJJLPA4WSAQksu9d0/view?usp=sharing">View
+                                    Certificate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="certificate-front">
+                                <img src="images/logos/datacamp-svgrepo-com.svg" alt="DataCamp"
+                                    class="skill-logo certificate-icon" />
+                                <h3>Associate Data Engineer in SQL</h3>
+                                <p class="certificate-issuer">DataCamp</p>
+                                <p class="certificate-date">Mar 2025</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="certificate-back">
+                                <h3>Associate Data Engineer</h3>
+                                <p>Foundational SQL data engineering concepts including Snowflake, data warehousing, and
+                                    query optimization.</p>
+                                <div class="certificate-skills"><span class="tag">Snowflake</span><span
+                                        class="tag">SQL</span></div>
+                                <button class="btn btn-primary btn-sm certificate-view-btn"
+                                    data-cert-title="Associate Data Engineer in SQL"
+                                    data-cert-url="https://www.datacamp.com/completed/statement-of-accomplishment/track/c5b5c38ae5c0fb7ef243857d49ac85b020c6bd2c">View
+                                    Certificate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="certificate-front">
+                                <img src="images/logos/udemy-svgrepo-com.svg" alt="Udemy"
+                                    class="skill-logo certificate-icon" />
+                                <h3>The Complete SQL Bootcamp</h3>
+                                <p class="certificate-issuer">Udemy</p>
+                                <p class="certificate-date">Feb 2025</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="certificate-back">
+                                <h3>Complete SQL Bootcamp</h3>
+                                <p>Comprehensive SQL course covering queries, joins, aggregations, and
+                                    PostgreSQL-specific features.</p>
+                                <div class="certificate-skills"><span class="tag">PostgreSQL</span></div>
+                                <button class="btn btn-primary btn-sm certificate-view-btn"
+                                    data-cert-title="The Complete SQL Bootcamp"
+                                    data-cert-url="https://www.udemy.com/certificate/UC-afc4c26d-dd05-40cf-9090-7b32a08a915a/">View
+                                    Certificate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="certificate-front">
+                                <img src="images/logos/udemy-svgrepo-com.svg" alt="Udemy"
+                                    class="skill-logo certificate-icon" />
+                                <h3>Linux for Beginners: Linux Basics</h3>
+                                <p class="certificate-issuer">Udemy</p>
+                                <p class="certificate-date">Nov 2024</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="certificate-back">
+                                <h3>Linux Basics</h3>
+                                <p>Covers core Linux command-line skills, file systems, permissions, and scripting
+                                    essentials.</p>
+                                <div class="certificate-skills"><span class="tag">Linux</span></div>
+                                <button class="btn btn-primary btn-sm certificate-view-btn"
+                                    data-cert-title="Linux for Beginners"
+                                    data-cert-url="https://www.udemy.com/certificate/UC-0dc6bfdb-276b-41ab-aa96-d009f06b6f20/">View
+                                    Certificate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── Contact ────────────────────────────────────── -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center mb-3 reveal">Get In Touch</h2>
+            <div class="grid grid-2">
+                <div class="card reveal">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, collaborations, or just chatting about data and
+                        technology. Feel free to reach out through any of the channels below.</p>
+                    <div class="social-icons" style="justify-content:flex-start;margin-top:2rem;">
+                        <a href="https://www.linkedin.com/in/glory-odeyemi/" class="social-icon linkedin"
+                            target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/gloryodeyemi" class="social-icon github" target="_blank"
+                            rel="noopener"><i class="fab fa-github"></i></a>
+                        <a href="mailto:gloryodeyemi1@gmail.com" class="social-icon email"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://glowcodes.medium.com/" class="social-icon medium" target="_blank"
+                            rel="noopener"><i class="fab fa-medium"></i></a>
+                        <!-- <a href="https://x.com/GloryOdeyemi" class="social-icon twitter" target="_blank"
+                            rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <a href="https://buymeacoffee.com/glowcodes" class="social-icon bmac" target="_blank"
+                            rel="noopener"><i class="fas fa-coffee"></i></a> -->
+                    </div>
+                </div>
+                <div class="card reveal">
+                    <h3>Quick Contact</h3>
+                    <div style="margin-bottom:1.5rem;">
+                        <div style="display:flex;align-items:center;margin-bottom:1rem;"><i class="fas fa-envelope"
+                                style="color:var(--accent);margin-right:1rem;font-size:1.2rem;"></i><span>gloryodeyemi1@gmail.com</span>
+                        </div>
+                        <div style="display:flex;align-items:center;margin-bottom:1rem;"><i
+                                class="fas fa-map-marker-alt"
+                                style="color:var(--accent);margin-right:1rem;font-size:1.2rem;"></i><span>Windsor, ON,
+                                Canada</span></div>
+                        <div style="display:flex;align-items:center;margin-bottom:1rem;"><i class="fas fa-calendar"
+                                style="color:var(--accent);margin-right:1rem;font-size:1.2rem;"></i><span>Available for
+                                new opportunities</span></div>
+                    </div>
+                    <a href="mailto:gloryodeyemi1@gmail.com"
+                        class="btn btn-primary btn-home"><i class="fas fa-paper-plane"></i> Send Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── Footer ─────────────────────────────────────── -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Glowcodes. All rights reserved.</p>
+                <p>Driven by data. Powered by purpose.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ─── Certificate Modal ──────────────────────────── -->
+    <div id="certificateModal" class="certificate-modal">
+        <div class="certificate-modal-content">
+            <div class="certificate-modal-header">
+                <h3 id="modalCertificateTitle">Certificate</h3>
+                <button class="certificate-modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="certificate-modal-body">
+                <div id="modalCertificateContent"></div>
+                <a id="modalCertificateLink" href="#" target="_blank" class="certificate-link"><i
+                        class="fas fa-external-link-alt"></i> Open in New Tab</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ─── JavaScript ─────────────────────────────────── -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script>
+        // ── Theme ────────────────────────────────────────────
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        updateThemeIcon(currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const t = document.documentElement.getAttribute('data-theme');
+            const n = t === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', n);
+            localStorage.setItem('theme', n);
+            updateThemeIcon(n);
+        });
+        function updateThemeIcon(theme) {
+            themeIcon.className = theme === 'dark' ? 'fas fa-sun theme-icon' : 'fas fa-moon theme-icon';
+        }
+
+        // ── Mobile Menu ──────────────────────────────────────
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+        mobileToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
+
+        // ── Active Nav on Scroll ─────────────────────────────
+        const navLinksEls = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('section');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(s => {
+                if (window.pageYOffset >= s.offsetTop - 100) current = s.id;
+            });
+            navLinksEls.forEach(l => {
+                l.classList.remove('active');
+                if (l.getAttribute('href') === '#' + current) l.classList.add('active');
+            });
+        });
+
+        // ── Project Filter ───────────────────────────────────
+        document.querySelectorAll('.project-filter').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.project-filter').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const f = btn.getAttribute('data-filter');
+                document.querySelectorAll('.project-card').forEach(card => {
+                    const cats = card.getAttribute('data-category').split(' ');
+                    const show = f === 'all' || cats.includes(f);
+                    card.style.display = show ? '' : 'none';
+                    card.style.animation = show ? 'fadeInUp .45s ease' : '';
+                });
+            });
+        });
+
+        // ── Carousels ────────────────────────────────────────
+        document.querySelectorAll('.carousel-container').forEach(carousel => {
+            const track = carousel.querySelector('.carousel-track');
+            const dots = carousel.querySelectorAll('.dot');
+            const total = carousel.querySelectorAll('.carousel-track img').length;
+            let current = 0;
+            let timer;
+
+            function goTo(i) {
+                current = i;
+                track.style.transform = `translateX(${-i * 100}%)`;
+                dots.forEach((d, idx) => d.classList.toggle('active', idx === i));
+            }
+            function next() { goTo((current + 1) % total); }
+
+            dots.forEach(dot => {
+                dot.addEventListener('click', () => {
+                    clearInterval(timer);
+                    goTo(parseInt(dot.dataset.slide));
+                    timer = setInterval(next, 4000);
+                });
+            });
+
+            if (total > 1) {
+                timer = setInterval(next, 4000);
+                carousel.addEventListener('mouseenter', () => clearInterval(timer));
+                carousel.addEventListener('mouseleave', () => { timer = setInterval(next, 4000); });
+            }
+        });
+
+        // ── Smooth Scroll ────────────────────────────────────
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const target = document.querySelector(a.getAttribute('href'));
+                if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+            });
+        });
+
+        // ── Scroll Reveal ────────────────────────────────────
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // ── Certificate Modal ────────────────────────────────
+        document.querySelectorAll('.certificate-view-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const title = btn.dataset.certTitle;
+                const url = btn.dataset.certUrl;
+                document.getElementById('modalCertificateTitle').textContent = title;
+                const link = document.getElementById('modalCertificateLink');
+                link.href = url;
+                const content = document.getElementById('modalCertificateContent');
+                if (url && url !== '#') {
+                    content.innerHTML = `<iframe src="${url}" title="${title}"></iframe>`;
+                } else {
+                    content.innerHTML = `<p>Certificate coming soon.</p>`;
+                }
+                document.getElementById('certificateModal').classList.add('active');
+            });
+        });
+        document.getElementById('modalClose').addEventListener('click', () => {
+            document.getElementById('certificateModal').classList.remove('active');
+            document.getElementById('modalCertificateContent').innerHTML = '';
+        });
+        document.getElementById('certificateModal').addEventListener('click', e => {
+            if (e.target === e.currentTarget) {
+                e.currentTarget.classList.remove('active');
+                document.getElementById('modalCertificateContent').innerHTML = '';
+            }
+        });
+    </script>
+</body>
+
 </html>
