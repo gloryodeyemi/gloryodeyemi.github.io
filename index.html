@@ -80,7 +80,7 @@
             <div class="about-layout">
                 <!-- Photo -->
                 <div class="about-photo-wrapper reveal">
-                    <img src="images/profile/profile.jpeg" alt="Glory Odeyemi"
+                    <img src="images/profile/styled-image.png" alt="Glory Odeyemi"
                         onerror="this.parentElement.innerHTML='<div class=\'about-photo-placeholder\'><i class=\'fas fa-user\'></i><span>Profile photo</span></div>'">
                 </div>
                 <!-- Text cards -->
@@ -442,7 +442,74 @@
                     </div>
                 </div>
 
-                <!-- ── Project 4: Sales & Customer Tableau ── -->
+                <!-- ── Project 4: MSc Thesis ── -->
+                <div class="project-card reveal" data-category="ai-ml">
+                    <div class="project-thumbnail">
+                        <span class="project-category-badge">AI / ML</span>
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <img src="images/projects/msc-thesis/image.png"
+                                    alt="Pause-enhanced transformer models for text summarization project overview"
+                                    loading="lazy">
+                                <img src="images/projects/msc-thesis/BART_runtime_and_rouge.png"
+                                    alt="BART pause-token runtime and ROUGE results" loading="lazy">
+                                <img src="images/projects/msc-thesis/T5_runtime_and_rouge.png"
+                                    alt="T5 pause-token runtime and ROUGE results" loading="lazy">
+                                <img src="images/projects/msc-thesis/Pegasus_runtime_and_rouge.png"
+                                    alt="Pegasus pause-token runtime and ROUGE results" loading="lazy">
+                                <img src="images/projects/msc-thesis/BART_fixed_vs_discontinuous.png"
+                                    alt="BART fixed versus discontinuous pause-token positioning" loading="lazy">
+                                <img src="images/projects/msc-thesis/T5_fixed_vs_discontinuous.png"
+                                    alt="T5 fixed versus discontinuous pause-token positioning" loading="lazy">
+                                <img src="images/projects/msc-thesis/Pegasus_fixed_vs_discontinuous.png"
+                                    alt="Pegasus fixed versus discontinuous pause-token positioning" loading="lazy">
+                            </div>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                                <span class="dot" data-slide="3"></span>
+                                <span class="dot" data-slide="4"></span>
+                                <span class="dot" data-slide="5"></span>
+                                <span class="dot" data-slide="6"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Finetuning Transformer Models for Text Summarization Using Pause
+                            Tokens</h3>
+                        <p class="project-desc">Investigated a learnable pause-token approach for abstractive text
+                            summarization by finetuning BART, T5, and Pegasus across BBC, BillSum, and SAMSum datasets.
+                            Evaluated fixed and discontinuous token placement, encoder and decoder configurations,
+                            runtime, and ROUGE performance, demonstrating measurable summarization gains for BART and
+                            T5 when pause tokens were added to the encoder input.</p>
+                        <div class="project-metrics">
+                            <div class="metric"><span class="metric-value">3</span><span
+                                    class="metric-label">Models</span></div>
+                            <div class="metric"><span class="metric-value">3</span><span
+                                    class="metric-label">Datasets</span></div>
+                            <div class="metric"><span class="metric-value">4</span><span class="metric-label">ROUGE
+                                    Metrics</span></div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag"><img src="images/logos/python.svg"
+                                    onerror="this.style.display='none'">Python</span>
+                            <span class="project-tag"><img src="images/logos/pytorch-original.svg"
+                                    onerror="this.style.display='none'">PyTorch</span>
+                            <span class="project-tag"><img src="images/logos/huggingface-2.svg"
+                                    onerror="this.style.display='none'">Transformers</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">ROUGE</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://uwindsor.scholaris.ca/server/api/core/bitstreams/4878e035-0977-452e-8d83-dfe067832cd0/content"
+                                class="btn btn-primary" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i>
+                                View Thesis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ── Project 5: Sales & Customer Tableau ── -->
                 <div class="project-card reveal" data-category="data-analysis">
                     <div class="project-thumbnail">
                         <span class="project-category-badge">Data Analysis</span>
@@ -493,7 +560,7 @@
                     </div>
                 </div>
 
-                <!-- ── Project 5: Sentiment Classification ── -->
+                <!-- ── Project 6: Sentiment Classification ── -->
                 <div class="project-card reveal" data-category="ai-ml">
                     <div class="project-thumbnail">
                         <span class="project-category-badge">AI / ML</span>
@@ -549,8 +616,9 @@
                     </div>
                 </div>
 
-                <!-- ── Project 6: Bank Term Deposit ── -->
-                <div class="project-card reveal" data-category="ai-ml">
+
+                <!-- ── Project 7: Bank Term Deposit ── -->
+                <div class="project-card reveal" data-category="ai-ml" data-featured="false" style="display:none;">
                     <div class="project-thumbnail">
                         <span class="project-category-badge">AI / ML</span>
                         <div class="carousel-container">
@@ -601,6 +669,10 @@
                 </div>
 
             </div><!-- /#projectsGrid -->
+
+            <div class="text-center mt-2 reveal">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
         </div>
     </section>
 
@@ -912,9 +984,15 @@
                 document.querySelectorAll('.project-filter').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 const f = btn.getAttribute('data-filter');
-                document.querySelectorAll('.project-card').forEach(card => {
+                const cards = Array.from(document.querySelectorAll('#projectsGrid .project-card'));
+                const matchingCards = cards.filter(card => {
                     const cats = card.getAttribute('data-category').split(' ');
-                    const show = f === 'all' || cats.includes(f);
+                    return f === 'all' ? card.dataset.featured !== 'false' : cats.includes(f);
+                }).slice(0, 6);
+                const visibleCards = new Set(matchingCards);
+
+                cards.forEach(card => {
+                    const show = visibleCards.has(card);
                     card.style.display = show ? '' : 'none';
                     card.style.animation = show ? 'fadeInUp .45s ease' : '';
                 });
